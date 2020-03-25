@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>base标签</title>
+    <base target="_blank">
+</head>
+
+<!--base标签必须写在head标签之间-->
+<!--base标签专门用来统一指定当前页面中所有的超链接(a标签)如何打开,即是否新建页面跳转-->
+<!--若在base标签中指定了target又在a标签中指定了target,那么浏览器会按照a标签中指定的来执行-->
+
+<body>
+<a href="http://news.baidu.com/">新闻</a>
+<a href="http://news.baidu.com/" target="_self">新闻</a>
+<a href="https://www.hao123.com/">hao123</a>
+<a href="https://map.baidu.com/@12983270.08,2695083.18,12z">地图</a>
+<a href="http://v.baidu.com/">视频</a>
+<a href="https://tieba.baidu.com/index.html">贴吧</a>
+</body>
+</html>
