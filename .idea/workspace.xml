@@ -3,8 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="fc909cb3-75de-4de9-ad02-d83b37e6829e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a标签使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/a标签的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H标签-P标签-Hr标签-U标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/H标签-P标签-Hr标签-U标签.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a标签其他属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/a标签其他属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a标签的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/a标签的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/base标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/br标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/img标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/假链接.html" beforeDir="false" afterPath="$PROJECT_DIR$/假链接.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/定义列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/定义列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/定义列表练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/定义列表练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/无序列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/无序列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/无序列表练习1.html" beforeDir="false" afterPath="$PROJECT_DIR$/无序列表练习1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/无序列表练习2.html" beforeDir="false" afterPath="$PROJECT_DIR$/无序列表练习2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/无序列表练习3.html" beforeDir="false" afterPath="$PROJECT_DIR$/无序列表练习3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/有序列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/有序列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/标签综合练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/标签综合练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/表格标签的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/表格标签的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/表格标签的属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/表格标签的属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/锚点.html" beforeDir="false" afterPath="$PROJECT_DIR$/锚点.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/锚点测试.html" beforeDir="false" afterPath="$PROJECT_DIR$/锚点测试.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +71,8 @@
       <workItem from="1585095348519" duration="10380000" />
       <workItem from="1585116545715" duration="14539000" />
       <workItem from="1585144872912" duration="4213000" />
+      <workItem from="1585149508959" duration="163000" />
+      <workItem from="1585191096909" duration="3682000" />
     </task>
     <servers />
   </component>
