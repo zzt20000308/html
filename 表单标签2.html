@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签2</title>
+</head>
+
+<!--onclick="alert('海贼王')"为js代码-->
+<!--type属性的button取值是定义一个普通按钮,配合js完成一些操作-->
+<!--type属性的image取值是定义一个图片按钮,配合js完成一些操作-->
+<!--type属性的reset取值是定义一个重置按钮,用来清空表单中的数据;重置按钮有默认的按钮标题,默认叫做"重置",也可以通过value属性来修改默认标题-->
+<!--type属性的reset取值是定义一个提交按钮,将表单中的数据提交到远程的服务器;要想把表单中的数据提交到远程服务器,必须满足两个条件：1、告诉表单需要提交到哪个服务器 2、告诉表单,表单中的哪些数据需要提交-->
+<!--可以通过form标签的action属性来告诉表单需要提交到哪个服务器-->
+<!--在需要提交的表单数据所在的标签添加name属性就能将该表单数据提交到action属性指定的服务器,若没有添加name属性则不会将表单数据提交到指定服务器-->
+<!--type属性的hidden取值是定义隐藏域,用于悄咪咪的收集用户的一些数据,隐藏域是不会在网页当中显示出来的-->
+
+<body>
+
+<form action="http://www.baidu.com">
+    账号:<input type="text" name="OnePiece">
+    <br>
+    密码:<input type="password" name="ABC">
+    <br>
+    确认密码:<input type="password">
+    <br>
+
+    <input type="button" value="按钮" onclick="alert('海贼王')">
+
+    <input type="image" src="./images/Button.jpg" onclick="alert('海贼王')">
+
+    <input type="reset">
+
+    <input type="reset" value="清空">
+
+    <input type="submit">
+
+    <input type="hidden" name="123" value="10086">
+</form>
+
+</body>
+</html>
