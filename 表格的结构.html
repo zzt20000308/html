@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格的结构</title>
+</head>
+
+<!--注意：以下的内容仅作为了解,在企业开发中,一般人不会去进行编写,因为浏览器会自动添加-->
+<!--表格中存储的数据可以分为4类：表格的标题,表格的表头信息,表格的主体信息,表格的页尾信息-->
+<!--caption标签作用：指定表格的标题-->
+<!--thead标签作用：指定表格的表头信息-->
+<!--tbody标签作用：指定表格的主体信息-->
+<!--tfoot标签作用：指定表格的附加(页尾)信息-->
+<!--如果没有编写tbody标签,系统会自动给我们添加tbody标签-->
+<!--如果指定了thead标签和tfoot标签,那么在修改整个表格的高度时,thead标签和tfoot标签有自己默认的高度,不会随着表格的高度变化而变化-->
+<!--注意：像以上控制样式的操作,都通过css控制-->
+<!--
+以下是表格的完整格式
+<table>
+    <caption>表格的标题</caption>
+    <thead>
+        <tr>
+            <th>每一列的标题</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>数据</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>数据</td>
+        </tr>
+    </tfoot>
+</table>
+-->
+
+<body>
+
+<table border="1px" width="500px" height="300px">
+    <caption>学生信息</caption>
+    <thead>
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>张三</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <td>李四</td>
+            <td>30</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>2</td>
+            <td>25</td>
+        </tr>
+    </tfoot>
+</table>
+
+</body>
+</html>

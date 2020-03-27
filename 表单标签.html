@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签</title>
+</head>
+
+<!--常见的表单元素:input标签-->
+<!--input标签有一个type属性,该属性有很多类型的取值,取值的不同就决定了input的功能和外观-->
+<!--type属性中的text代表明文输入框-->
+<!--type属性中的password代表暗文输入框-->
+<!--给输入框设置默认值:value属性-->
+<!--type属性中的radio代表单选框-->
+<!--注意:默认情况下单选框不会互斥,要想单选框互斥就得给每一个单选框标签设置一个name属性,然后name属性还需要设置相同的值(可任意值);要想让单选框默认选中某一个框子,可以给input标签添加一个checked属性-->
+<!--若同时给多个含有radio取值的input标签设置checked属性,默认选项会选中最后一个设置checked属性的框-->
+<!--在HTML中如果属性的取值和属性的名称一样,可以只写一个;但是在XHTML中必须写上取值,所以在企业开发中推荐不要省略取值-->
+<!--type属性中的checkbox代表多选框-->
+<!--若同时给多个含有checkbox取值的input标签设置checked属性,默认选项会选中所有设置checked属性的框-->
+
+
+<body>
+
+<form>
+    账号:<input type="text">
+    <br>
+    密码:<input type="password">
+    <br>
+    账号:<input type="text" value="QQ">
+    <br>
+    密码:<input type="password" value="QQ">
+</form>
+
+<form>
+    性别:
+    <input type="radio">男
+    <input type="radio">女
+    <input type="radio">保密
+</form>
+
+<form>
+    性别:
+    <input type="radio" name="1">男
+    <input type="radio" name="1">女
+    <input type="radio" name="1">保密
+</form>
+
+<form>
+    性别:
+    <input type="radio" name="1">男
+    <input type="radio" name="1">女
+    <input type="radio" name="1" checked="checked">保密
+</form>
+
+<form>
+    性别:
+    <input type="radio" name="1" checked="checked">男
+    <input type="radio" name="1" checked="checked">女
+    <input type="radio" name="1" checked="checked">保密
+</form>
+
+<form>
+    性别:
+    <input type="radio" name="1">男
+    <input type="radio" name="1">女
+    <input type="radio" name="1" checked>保密
+</form>
+
+<form>
+    动漫:
+    <input type="checkbox">死神
+    <input type="checkbox">海贼王
+    <input type="checkbox">火影忍者
+</form>
+
+<form>
+    动漫:
+    <input type="checkbox">死神
+    <input type="checkbox" checked="checked">海贼王
+    <input type="checkbox" checked="checked">火影忍者
+</form>
+
+</body>
+</html>

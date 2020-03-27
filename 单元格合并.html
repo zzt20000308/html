@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>单元格合并</title>
+</head>
+
+<!--单元格合并永远都是向后或者向下合并,不能向前或者向上合并-->
+<!--水平方向上的单元格合并：可以给td标签添加一个colspan属性,来指定把某一个单元格当作多个单元格来看待(水平方向)-->
+<!--<td colspan="2"></td>的含义：把当前单元格当作两个单元格看待-->
+<!--注意：由于把某个单元格当作多个单元格看待,所以会多出一些单元格,因此需要删掉一些单元格才能正常显示-->
+<!--垂直方向上的单元格合并：可以给td标签添加一个rowspan属性,来指定把某一个单元格当作多个单元格来看待(垂直方向)-->
+<!--<td rowspan="2"></td>的含义：把当前单元格当作两个单元格看待-->
+<!--注意：由于把某个单元格当作多个单元格看待,所以会多出一些单元格,因此需要删掉一些单元格才能正常显示-->
+
+<body>
+
+<table bgcolor="black" width="500px" height="300px" align="center">
+    <tr bgcolor="white">
+        <td colspan="2"></td>
+        <td></td>
+    </tr>
+
+    <tr bgcolor="white">
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr bgcolor="white">
+        <td></td>
+        <td colspan="2"></td>
+    </tr>
+</table>
+
+<hr>
+
+<table bgcolor="black" width="500px" height="300px" align="center">
+    <tr bgcolor="white">
+        <td rowspan="2"></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr bgcolor="white">
+        <td></td>
+        <td rowspan="2"></td>
+    </tr>
+
+    <tr bgcolor="white">
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+</body>
+</html>
