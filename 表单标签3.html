@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签3</title>
+</head>
+
+<!--select标签是用于定义下拉列表,下拉列表不能输入内容,但是可以直接在列表中选择内容-->
+<!--默认情况下,select标签会显示下拉列表的第一个内容,但是可以在option标签添加selected属性来指定列表显示的默认值-->
+<!--可以通过给option标签包裹一层optgroup标签来给下拉列表中的数据分类-->
+<!--textarea标签是用于定义一个多行输入框-->
+<!--默认情况下,textarea标签可以无限换行,并且输入框有默认的宽度和高度-->
+<!--可以给textarea标签添加cols属性和rows属性,通过这两个属性来指定输入框的宽度和高度(列数和行数),但是还是可以无限往下输入-->
+<!--默认情况下,textarea标签的输入框是可以手动拉伸的,若不想让其可以通过手动拉伸,可以通过css控制-->
+
+<body>
+
+<select>
+    <option>路飞</option>
+    <option>索隆</option>
+    <option>山治</option>
+    <option>娜美</option>
+    <option>罗宾</option>
+    <option>乔巴</option>
+    <option>乌索普</option>
+    <option>弗兰奇</option>
+    <option>布鲁克</option>
+    <option>梅利号</option>
+    <option>sunny号</option>
+</select>
+
+<br>
+
+<select>
+    <option>路飞</option>
+    <option>索隆</option>
+    <option>山治</option>
+    <option>娜美</option>
+    <option>罗宾</option>
+    <option>乔巴</option>
+    <option>乌索普</option>
+    <option>弗兰奇</option>
+    <option>布鲁克</option>
+    <option>梅利号</option>
+    <option selected="selected">sunny号</option>
+</select>
+
+<br>
+
+<select>
+    <optgroup label="成员">
+        <option>路飞</option>
+        <option>索隆</option>
+        <option>山治</option>
+        <option>娜美</option>
+        <option>罗宾</option>
+        <option>乔巴</option>
+        <option>乌索普</option>
+        <option>弗兰奇</option>
+        <option>布鲁克</option>
+    </optgroup>
+
+    <optgroup label="船只">
+        <option>梅利号</option>
+        <option>sunny号</option>
+    </optgroup>
+</select>
+
+<hr>
+
+<textarea>
+</textarea>
+
+<br>
+
+<textarea cols="1" rows="5">
+</textarea>
+
+</body>
+</html>
