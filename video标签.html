@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>video标签</title>
+</head>
+
+<!--video标签是用来播放视频-->
+<!--video标签的属性：src属性,autoplay属性,controls属性,poster属性,loop属性,preload属性,muted属性,width属性,height属性-->
+<!--src属性用于告诉video标签需要播放的视频地址,点击后按"F5"刷新无法自动播放,需要点击右键然后去新的网页打开才能正常播放-->
+<!--autoplay属性用于告诉video标签是否需要自动播放视频(可能因为video标签不支持播放mp4格式,所以以下的代码所呈现的视频无法自动播放,需要在网页中点击右键然后点击“在新标签页中打开视频”才能正常播放或者通过浏览器打开后点击页面一下然后按"F5"刷新即可播放)-->
+<!--controls属性用于告诉video标签是否需要显示控制条,有了控制条后,可直接点击视频进行播放,或者通过右键,再或者通过"F5"-->
+<!--poster属性用于告诉video标签-->
+<!--总的来说,video标签里需要有autoplay属性,点击后按"F5"刷新才能自动播放-->
+
+<body>
+
+<video src="./images/Style1.mp4"></video>
+
+<video src="./images/Style1.mp4" autoplay="autoplay"></video>
+
+<video src="./images/Style1.mp4" autoplay="autoplay" controls="controls"></video>
+
+<video src="./images/Style1.mp4" controls="controls" poster="./images/Solon.jpg"></video>
+
+</body>
+</html>
