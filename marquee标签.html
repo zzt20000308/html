@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>marquee标签</title>
+<!--以下代码的作用是效果展示,即蓝框-->
+    <style>
+        marquee
+        {
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+        }
+    </style>
+</head>
+
+<!--marquee标签不是W3C推荐的标签,在W3C官方文档中也无法查询这个标签,但是各大浏览器对这个标签的支持非常好-->
+<!--marquee标签的作用:跑马灯-->
+<!--direction属性用于设置滚动方向,有left/right/up/down等取值-->
+<!--direction="right":从左往右-->
+<!--direction="up":从下往上-->
+<!--direction="down":从上往下-->
+<!--scrollamount属性用于设置滚动速度,值越大速度越快-->
+<!--loop属性设置滚动次数,默认是-1,也就是无限滚动-->
+<!--behavior属性设置滚动类型,slide取值是滚动到边界就停止,alternate取值是滚动到边界就弹回-->
+
+<body>
+
+<marquee>海贼王</marquee>
+
+<marquee direction="right">海贼王</marquee>
+
+<marquee direction="up">海贼王</marquee>
+
+<marquee direction="down">海贼王</marquee>
+
+<hr>
+
+<marquee scrollamount="1">海贼王</marquee>
+
+<marquee scrollamount="100">海贼王</marquee>
+
+<hr>
+
+<marquee loop="1">海贼王</marquee>
+
+<hr>
+
+<marquee behavior="slide">海贼王</marquee>
+
+<marquee behavior="alternate">海贼王</marquee>
+
+<hr>
+
+<marquee>
+    <img src="./images/Luffy.jpg" width="100px">
+</marquee>
+
+</body>
+</html>

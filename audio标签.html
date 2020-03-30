@@ -6,15 +6,41 @@
 </head>
 
 <!--audio标签用于播放音频-->
-<!--audio标签添加autoplay属性-->
+<!--audio标签的src属性是添加音频地址,但在浏览器上不会显示出东西,无法通过右键或者"F5"进行播放-->
+<!--audio标签添加autoplay属性后原本可以在浏览器自动播放(但不会在浏览器上显示出东西),可能因为浏览器不支持,所以不会自动播放,也没法通过右键和"F5"进行播放-->
+<!--audio标签的controls属性是给音频加控制条的,添加后浏览器会显示出控制条,可通过控制条进行播放音频,也可以通过右键,但没法通过"F5"-->
+<!--audio标签的使用和video标签的使用基本一样,video标签中能够使用的属性在audio标签中大部分都能够使用,并且功能都一样,只不过有3个属性不能用(height/width/poster)-->
 
 <body>
 
-<audio src="./images/Music.mp3" autoplay="autoplay" controls="controls">
+<audio src="./images/Music1.mp3">
 </audio>
 
-<audio>
-    <source src="" type="">
+<hr>
+
+<audio src="./images/Music1.mp3" autoplay="autoplay">
+</audio>
+
+<hr>
+
+<audio src="./images/Music1.mp3" controls="controls">
+</audio>
+
+<hr>
+
+<audio src="./images/Music1.mp3" autoplay="autoplay" controls="controls">
+</audio>
+
+<hr>
+
+<audio autoplay="autoplay">
+    <source src="./images/Music2.mp3" type="audio/mp3">
+</audio>
+
+<hr>
+
+<audio autoplay="autoplay" controls="controls">
+    <source src="./images/Music2.mp3" type="audio/mp3">
 </audio>
 
 </body>
