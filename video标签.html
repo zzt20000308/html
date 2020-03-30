@@ -8,20 +8,30 @@
 <!--video标签是用来播放视频-->
 <!--video标签的属性：src属性,autoplay属性,controls属性,poster属性,loop属性,preload属性,muted属性,width属性,height属性-->
 <!--src属性用于告诉video标签需要播放的视频地址,点击后按"F5"刷新无法自动播放,需要点击右键然后去新的网页打开才能正常播放-->
-<!--autoplay属性用于告诉video标签是否需要自动播放视频(可能因为video标签不支持播放mp4格式,所以以下的代码所呈现的视频无法自动播放,需要在网页中点击右键然后点击“在新标签页中打开视频”才能正常播放或者通过浏览器打开后点击页面一下然后按"F5"刷新即可播放)-->
+<!--autoplay属性用于告诉video标签是否需要自动播放视频(可能因为video标签不支持播放mp4格式或者浏览器不支持,所以以下的代码所呈现的视频无法自动播放,需要在网页中点击右键然后点击“在新标签页中打开视频”才能正常播放或者通过浏览器打开后点击页面一下然后按"F5"刷新即可播放)-->
 <!--controls属性用于告诉video标签是否需要显示控制条,有了控制条后,可直接点击视频进行播放,或者通过右键,再或者通过"F5"-->
-<!--poster属性用于告诉video标签-->
-<!--总的来说,video标签里需要有autoplay属性,点击后按"F5"刷新才能自动播放-->
+<!--poster属性用于告诉video标签视频没有播放之前显示的占位图片,即视频一开始呈现出来的图片-->
+<!--loop属性(了解)一般用于做广告视频,用于告诉video标签视频播放完毕之后是否需要循环播放,通过右键打开新网页无法循环播放,通过"F5"即可循环播放-->
+<!--preload属性(了解)用于预加载视频,由于视频是本地的所以无法演示,需要注意:preload属性与autoplay属性相冲,如果设置了autoplay属性,那么preload属性就会失效-->
+<!--muted属性(了解)用于静音,加了该属性后,不用任何操作即可自动播放,但是是静音播放-->
+<!--video标签中的width属性与height属性用法和img标签中的一样,一般只推荐用其中一个,否则可能会使视频变形-->
+<!--总的来说,video标签里需要有autoplay属性,点击后按"F5"刷新才能自动播放;有controls属性后点击视频即可播放-->
 
 <body>
 
-<!--<video src="./images/Style1.mp4"></video>-->
+<video src="./images/Style1.mp4"></video>
 
-<!--<video src="./images/Style1.mp4" autoplay="autoplay"></video>-->
+<video src="./images/Style1.mp4" autoplay="autoplay"></video>
 
-<!--<video src="./images/Style1.mp4" autoplay="autoplay" controls="controls"></video>-->
+<video src="./images/Style1.mp4" autoplay="autoplay" controls="controls"></video>
 
-<!--<video src="./images/Style1.mp4" controls="controls" poster="./images/Solon.jpg"></video>-->
+<video src="./images/Style1.mp4" controls="controls" poster="./images/Solon.jpg"></video>
+
+<video src="./images/Style1.mp4" autoplay="autoplay" loop="loop"></video>
+
+<video src="./images/Style1.mp4" autoplay="autoplay" loop="loop" muted="muted"></video>
+
+<video src="./images/Style1.mp4" autoplay="autoplay" loop="loop" muted="muted" height="400px"></video>
 
 </body>
 </html>
