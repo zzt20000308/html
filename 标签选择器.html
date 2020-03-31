@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标签选择器</title>
+
+    <style>
+        p{
+           color: red;
+        }
+
+        h1{
+            color: orange;
+        }
+    </style>
+
+</head>
+
+<!--标签选择器:根据指定的标签名称在当前的页面中找到所有该名称的标签,然后设置属性-->
+<!--格式:标签名称{属性:值;}-->
+<!--注意:标签选择器选中的是当前页面中所有的标签,而不能单独选中某一个标签;无论标签藏得多深都能被选中;只要是HTML中的标签就可以作为标签选择器(h/a/img/ul/ol/dl/input...)-->
+
+<body>
+
+<p>海贼王</p>
+
+<p>海贼王</p>
+
+<p>海贼王</p>
+
+<p>海贼王</p>
+
+<ul>
+    <li>
+        <ul>
+            <li>
+                <ul>
+                    <li>
+                        <p>海贼王</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<h1>海贼王</h1>
+
+</body>
+</html>
