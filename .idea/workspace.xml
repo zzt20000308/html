@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc909cb3-75de-4de9-ad02-d83b37e6829e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Datalist标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/Datalist标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML中被废弃的标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML中被废弃的标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Label标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/Label标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/base标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marquee标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/marquee标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/体验CSS.html" beforeDir="false" afterPath="$PROJECT_DIR$/体验CSS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/单元格合并练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/单元格合并练习.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/字符实体.html" beforeDir="false" afterPath="$PROJECT_DIR$/字符实体.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/定义列表练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/定义列表练习.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/表单标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/表单标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/表单标签2.html" beforeDir="false" afterPath="$PROJECT_DIR$/表单标签2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/表单练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/表单练习.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/表格标签中的其他标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/表格标签中的其他标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/id选择器和class选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/id选择器和class选择器.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +66,7 @@
       <workItem from="1585455045978" duration="9577000" />
       <workItem from="1585547982646" duration="11020000" />
       <workItem from="1585572464503" duration="13122000" />
-      <workItem from="1585613908131" duration="31695000" />
+      <workItem from="1585613908131" duration="37896000" />
     </task>
     <servers />
   </component>

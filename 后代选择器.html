@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后代选择器</title>
+
+    <style>
+        /*div p{*/
+        /*    color: red;*/
+        /*}*/
+
+        /*.OnePiece p{*/
+        /*    color: orange;*/
+        /*}*/
+
+        /*.OnePiece .Luffy{*/
+        /*    color: green;*/
+        /*}*/
+
+        div ul li p{
+            color: blue;
+        }
+    </style>
+
+</head>
+
+<!--后代选择器:找到指定标签的所有特定的后代标签,然后设置属性-->
+<!--格式:标签名称1 标签名称2{属性:值;},含义:先找到名称叫做标签名称1的标签,然后再在这个标签下面去查找所有名称叫做标签名称2的标签,然后在设置属性-->
+<!--注意:后代选择器必须用空格隔开;后代不仅仅是儿子,也包括孙子和重孙子,只要最终是放到指定标签中的都是后代;后代选择器不仅仅可以使用标签名称,还可以使用其他选择器-->
+
+<body>
+
+<p>海贼王</p>
+
+<div class="OnePiece">
+    <p>海贼王</p>
+    <p>海贼王</p>
+    <ul>
+        <li>
+            <p class="Luffy">海贼王</p>
+        </li>
+    </ul>
+</div>
+
+<p>海贼王</p>
+
+</body>
+</html>
