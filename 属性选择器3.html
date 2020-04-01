@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器3</title>
+
+    <style>
+        /*CSS3*/
+        /*img[alt*=abc]{*/
+        /*    color: red;*/
+        /*}*/
+
+        /*CSS2*/
+        img[alt~=abc]{
+            color: orange;
+        }
+    </style>
+
+</head>
+<body>
+
+<img alt="abczztwww">
+<br>
+<img alt="wwwabczzt">
+<br>
+<img alt="wwwzztabc">
+<br>
+<img alt="www-abc-zzt">
+<br>
+<img alt="www abc zzt">
+<br>
+<img alt="qq">
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择器练习</title>
+
+    <style>
+        /*标签选择器*/
+        /*p{*/
+        /*    color: red;*/
+        /*}*/
+
+        /*id选择器*/
+        /*#one{*/
+        /*    color: orange;*/
+        /*}*/
+        /*#two{*/
+        /*    color: orange;*/
+        /*}*/
+
+        /*类选择器*/
+        /*.abc{*/
+        /*    color: green;*/
+        /*}*/
+
+        /*后代选择器*/
+        /*div p{*/
+        /*    color: blue;*/
+        /*}*/
+
+        /*子元素选择器*/
+        /*div>p{*/
+        /*    color: deeppink;*/
+        /*}*/
+
+        /*交集选择器*/
+        /*p.abc{*/
+        /*    color: purple;*/
+        /*}*/
+
+        /*并集选择器*/
+        /*#one,#two{*/
+        /*    color: skyblue;*/
+        /*}*/
+
+        /*通用兄弟选择器*/
+        /*h1~p{*/
+        /*    color: brown;*/
+        /*}*/
+
+        /*序选择器*/
+        /*p:nth-of-type(n+1){*/
+        /*    color: coral;*/
+        /*}*/
+
+        /*属性选择器*/
+        p[id]{
+            color: salmon;
+            font-size: 10px;
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+
+<div>
+    <h1>标题</h1>
+
+    <p id="one" class="abc">段落1</p>
+
+    <p id="two" class="abc">段落2</p>
+</div>
+
+</body>
+</html>
