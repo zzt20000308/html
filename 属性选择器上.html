@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器上</title>
+
+    <style>
+        /*p[id]{*/
+        /*    color: red;*/
+        /*}*/
+
+        p[class=zzt]{
+            color: orange;
+        }
+    </style>
+
+</head>
+
+<!--属性选择器:根据指定的属性名称找到对应的标签,然后设置属性-->
+<!--[attribute]:根据指定的属性名称找到对应的标签,然后设置属性-->
+<!--[attribute=value]:找到有指定属性,并且属性的取值等于value的标签,然后设置属性;最常见的应用场景就是用于区分input属性-->
+<!--如:input[type=password]{} (说明:该选择器可以选中以下第二input标签)
+<input type="text">
+<input type="password">
+<input type="radio">
+<input type="checkbox">
+-->
+
+<body>
+
+<p id="one">段落1</p>
+
+<p id="two" class="zzt">段落2</p>
+
+<p class="zzt">段落3</p>
+
+<p id="three" class="suv">段落4</p>
+
+<p>段落5</p>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>序选择器1</title>
+
+    <style>
+       /*p:first-child{*/
+       /*     color: red;*/
+       /* }*/
+
+        /*p:first-of-type{*/
+        /*    color: orange;*/
+        /*}*/
+
+        /*p:last-child{*/
+        /*    color: green;*/
+        /*}*/
+
+        /*p:last-of-type{*/
+        /*    color: blue;*/
+        /*}*/
+
+        /*p:nth-child(3){*/
+        /*    color: purple;*/
+        /*}*/
+
+        /*p:nth-of-type(3){*/
+        /*    color: deeppink;*/
+        /*}*/
+
+        /*p:nth-last-child(2){*/
+        /*    color: skyblue;*/
+        /*}*/
+
+        p:nth-last-of-type(2){
+            color: brown;
+        }
+    </style>
+
+</head>
+
+<!--CSS3中新增的选择器最具代表性的就是序选择器-->
+
+<!--同级别的第几个(注意:不区分类型):first-child,last-child,nth-child(n),nth-last-child(n)-->
+<!--first-child:选中同级别中的第一个标签-->
+<!--last-child:选中同级别中的最后一个标签-->
+<!--nth-child(n):选中同级别中的第n个标签-->
+<!--nth-last-child(n):选中同级别中的倒数第n个标签-->
+
+<!--同类型的第几个:first-of-type,last-of-type,nth-of-type(n),nth-last-of-type(n)-->
+<!--first-of-type:选中同级别中同类型的第一个标签-->
+<!--last-of-type:选中同级别中同类型的最后一个标签-->
+<!--nth-of-type(n):选中同级别中同类型的第n个标签-->
+<!--nth-last-of-type(n):选中同级别中同类型的倒数第n个标签-->
+
+<body>
+
+<h1>标题</h1>
+
+<p>段落1</p>
+
+<p>段落2</p>
+
+<p>段落3</p>
+
+<p>段落4</p>
+
+<div>
+    <p>段落5</p>
+    <p>段落6</p>
+    <p>段落7</p>
+    <p>段落8</p>
+</div>
+
+</body>
+</html>

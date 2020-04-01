@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>序选择器2</title>
+
+    <style>
+        /*p:only-child{*/
+        /*    color: red;*/
+        /*}*/
+
+        p:only-of-type{
+            color: orange;
+        }
+    </style>
+
+</head>
+
+<!--同级别的第几个(注意:不区分类型):first-child,last-child,nth-child(n),nth-last-child(n),only-child-->
+<!--only-child:选中父元素中唯一的元素-->
+
+<!--同类型的第几个:first-of-type,last-of-type,nth-of-type(n),nth-last-of-type(n),only-of-type-->
+<!--only-of-type:选中父元素中唯一类型的某个标签-->
+
+<body>
+
+<p>段落1</p>
+
+<div>
+    <p>段落2</p>
+</div>
+
+</body>
+</html>
