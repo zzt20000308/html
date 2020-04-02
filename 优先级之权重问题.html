@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>优先级之权重问题</title>
+
+    <style>
+        #one .zzt2 {
+            color: red;
+        }
+
+        #one #two{
+            color: deeppink;
+        }
+
+        #one ul p{
+            color: purple;
+        }
+
+        #one ul li p{
+            color: blue;
+        }
+
+        .zzt1 .zzt2{
+            color: orange;
+        }
+
+        div ul li p{
+            color: green;
+        }
+
+        #one ul .zzt2{
+            color: brown;
+        }
+
+        .zzt1 li #two{
+            color: skyblue;
+        }
+    </style>
+
+</head>
+
+<!--优先级的权重:当多个选择器混合在一起使用时,我们可以通过计算权重来判断谁的优先级最高-->
+<!--权重的计算规则:首先先计算选择器中有多少个id,id多的选择器优先级最高;如果id的个数一样,那么再看类名的个数,类名个数多的优先级最高;如果类名的个数一样,那么再看标签名称的个数,标签名称个数多的优先级最高;如果id个数一样,类名个数一样,标签名称个数也一样,那么就不会继续往下计算了,那么此时谁写在后面听谁的,也就是说优先级如果一样,那么谁写在后面听谁的-->
+<!--注意:只有选择器是直接选中标签的才需要计算权重-->
+
+<body>
+
+<div id="one" class="zzt1">
+    <ul>
+        <li>
+            <p id="two" class="zzt2">段落</p>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

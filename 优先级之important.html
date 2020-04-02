@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>优先级之important</title>
+
+    <style>
+        #one{
+            color: red;
+            font-size: 30px;
+        }
+
+        .zzt{
+            color: orange;
+        }
+
+        p{
+            color: green;
+        }
+
+        *{
+            color: purple !important;
+            font-size: 10px;
+        }
+
+        li{
+            color: blue;
+        }
+    </style>
+
+</head>
+
+<!--important:用于提升某个直接选中标签的选择器中的某个属性的优先级的,可以将被指定的属性的优先级提升为最高-->
+<!--注意:important只能用于直接选中,不能用于间接选中;通配符选择器选中的标签也是直接选中的;!important只能提升被指定的属性的优先级,其他的属性的优先级不会被提升;!important必须写在属性值的分号前面;!important前面的感叹号不能省略-->
+
+<body>
+
+<ul>
+    <li>
+        <p id="one" class="zzt">段落</p>
+    </li>
+</ul>
+
+</body>
+</html>

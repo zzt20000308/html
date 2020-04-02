@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS三大特性之层叠性</title>
+
+    <style>
+        p{
+            color: red;
+        }
+
+        .zzt{
+            color: orange;
+        }
+    </style>
+
+</head>
+
+<!--层叠性:就是CSS处理冲突的一种能力-->
+<!--注意:只有在多个选择器选中"同一个标签",然后又设置了"相同的属性"才会发生层叠性-->
+
+<body>
+
+<p id="one" class="zzt">段落</p>
+
+</body>
+</html>
