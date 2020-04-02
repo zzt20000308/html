@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS三大特性之选择器练习6</title>
+
+    <style>
+        #one #two{
+            color: red;
+        }
+
+        #one p.zzt2{
+            color: orange;
+        }
+
+        div.zzt1 p.zzt2{
+            color: green;
+        }
+
+        #one{
+            color: purple !important;
+        }
+
+        div#one.zzt1{
+            color: skyblue;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="one" class="zzt1">
+    海贼王
+    <p id="two" class="zzt2">路飞</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS元素的显示模式</title>
+
+    <style>
+        div{
+            background: red;
+            width: 200px;
+            height: 200px;
+        }
+
+        span{
+            background: orange;
+            width: 200px;
+            height: 200px;
+        }
+
+        img{
+            width: 150px;
+            height: 250px;
+        }
+    </style>
+
+</head>
+
+<!--在HTML中,将所有的标签分为两类,分别是容器级和文本级;在CSS中,也将所有的标签分为两类,分别是块级元素和行内元素-->
+<!--块级元素:会独占一行,所有的容器级标签都是块级元素;div,h,ul,ol,dl,li,dt,dd,p(p标签是文本级)-->
+<!--行内元素:不会独占一行,在文本级标签中除了p标签外(p标签是块级元素),其他都是行内元素;span,buis,stong,em,ins,del-->
+<!--块级元素和行内元素的区别:块级元素会独占一行,行内元素不会独占一行;块级元素如果没有设置宽度,那么默认和父元素(body)一样宽,如果设置了宽高,那么就按照设置的来显示,行内元素如果没有设置宽度,那么默认和内容一样宽,即使设置了宽高也不会改变,所以行内元素是不可以设置宽度和高度的-->
+<!--行内块级元素:为了能够让元素既不独占一行,又可以设置宽度和高度,那么就出现了行内块级元素(如img)-->
+
+<body>
+
+<div>我是div</div>
+
+<p>我是段落</p>
+
+<h1>我是标题</h1>
+
+<hr>
+
+<span>我是span</span>
+
+<b>我是加粗</b>
+
+<strong>我是强调</strong>
+
+<hr>
+
+<img src="./images/Solon.jpg">
+
+<img src="./images/Solon.jpg">
+
+</body>
+</html>

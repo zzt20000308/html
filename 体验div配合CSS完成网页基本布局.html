@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>体验div配合CSS完成网页基本布局</title>
+
+    <style>
+        .header{
+            width: 980px;
+            height: 100px;
+            background: red;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+        .content{
+            width: 980px;
+            height: 500px;
+            background: green;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+
+        .footer{
+            width: 980px;
+            height: 100px;
+            background: blue;
+            margin: auto;
+        }
+
+        .logo{
+            width: 200px;
+            height: 50px;
+            background: pink;
+            float: left;
+            margin: 20px;
+        }
+
+        .nav{
+            width: 600px;
+            height: 50px;
+            background: yellow;
+            float: right;
+            margin: 20px;
+        }
+
+        .aside{
+            width: 250px;
+            height: 460px;
+            background: purple;
+            float: left;
+            margin: 20px;
+        }
+
+        .article{
+            width: 650px;
+            height: 460px;
+            background: skyblue;
+            float: right;
+            margin: 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="header">
+    <div class="logo"></div>
+    <div class="nav"></div>
+</div>
+
+<div class="content">
+    <div class="aside"></div>
+    <div class="article"></div>
+</div>
+
+<div class="footer"></div>
+
+</body>
+</html>
