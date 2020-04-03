@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>背景平铺属性</title>
+
+    <style>
+        div{
+            width: 500px;
+            height: 500px;
+        }
+
+        .zzt1{
+            background-image: url("./images/Button.jpg");
+            /*background-repeat: repeat;*/
+            /*background-repeat: no-repeat;*/
+            /*background-repeat: repeat-x;*/
+            background-repeat: repeat-y;
+        }
+    </style>
+
+</head>
+
+<!--控制背景图片的平铺方式:在CSS中有一个叫做background-repeat的属性,就是专门用于控制背景图片的平铺方式的-->
+<!--取值:repeat,no-repeat,repeat-x,repeat-y-->
+<!--repeat:默认,在水平和垂直都需要平铺-->
+<!--no-repeat:在水平和垂直都不需要平铺-->
+<!--repeat-x:只在水平方向平铺-->
+<!--repeat-y:只在垂直方向平铺-->
+<!--应用场景:可以通过背景图片的平铺来降低图片的大小,提升网页的访问速度(图片太大的话,访问速度会降低,因此可以选择一些有规律并且尺寸小一点的图片,通过平铺的方式填充页面)-->
+<!--快捷键:background-repeat为bgr+Tab-->
+
+<body>
+
+<div class="zzt1"></div>
+
+</body>
+</html>

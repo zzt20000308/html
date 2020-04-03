@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>背景图片和插入图片的区别</title>
+
+    <style>
+        div{
+            width: 400px;
+            height: 400px;
+            background-color: red;
+        }
+
+        .zzt1{
+            background-image: url(./images/Button.jpg);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+        }
+    </style>
+
+</head>
+
+<!--快捷键:"div.class的取值$*n"然后按下Tab,结果是生成n个div标签,class的值的后缀为1~n-->
+<!--背景图片和插入图片的区别:背景图片仅仅是一个装饰,不会占用位置(文字会显示在图片上面),而插入图片会占用位置(文字不会显示在图片上面);背景图片有定位属性,所以可以很方便的控制图片的位置,而插入图片没有定位属性,所以控制图片的位置不太方便;插入图片的语义比背景图片的语义要强,所以在企业开发中如果图片想被搜索引擎收录,推荐使用插入图片-->
+
+<body>
+
+<div class="zzt1">海贼王</div>
+
+<div class="zzt2">
+    <img src="./images/Button.jpg">
+    海贼王
+</div>
+
+</body>
+</html>

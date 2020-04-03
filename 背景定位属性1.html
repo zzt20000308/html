@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>背景定位属性1</title>
+
+    <style>
+        div{
+            width: 800px;
+            height: 800px;
+        }
+
+        .zzt1{
+            background-color: red;
+            background-image: url("./images/Button.jpg");
+            background-repeat: no-repeat;
+            /*background-position: center center;*/
+            /*background-position: 100px 200px;*/
+            background-position: -80px -80px;
+        }
+    </style>
+
+</head>
+
+<!--注意:同一个标签可以同时设置背景颜色和背景图片,如果颜色和图片同时存在,那么图片会覆盖颜色-->
+<!--控制背景图片的位置:在CSS中有一个叫做background-position的属性,该属性就是专门用于控制背景图片的位置-->
+<!--取值:具体的方位名词;具体的像素-->
+<!--具体的方位名词:水平方向(left/center/right),垂直方向(top/center/bottom)-->
+<!--格式:"background-position: 水平方向 垂直方向;"-->
+<!--具体的像素:如50px,100px,500px,-50px,-100px(具体的像素是可以接收负数的)-->
+<!--格式如:"background-position: 100px 200px;"(一定要写单位px)-->
+<!--快捷键:background-position为bp+Tab-->
+
+<body>
+
+<div class="zzt1"></div>
+
+</body>
+</html>
