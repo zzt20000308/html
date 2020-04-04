@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>边框属性2</title>
+
+    <style>
+        .zzt{
+            width: 500px;
+            height: 500px;
+            background-color: skyblue;
+            border-width: 5px 10px 15px 20px;
+            border-style: solid dashed dotted double;
+            border-color: deeppink orange green purple;
+        }
+    </style>
+
+</head>
+
+<!--连写3(分别设置四条边的边框):"border-width: 上 右 下 左;","border-style: 上 右 下 左;","border-color: 上 右 下 左;"-->
+<!--注意:这三个属性的取值是按照顺时针来赋值,也就是按照上右下左来赋值,而不是按照日常生活中的上下左右-->
+<!--三个属性的取值省略时的规律为:上右下左省略为上右下时,左边的取值和右边的一样;上右下左省略为上右时,左边的取值和右边的一样,下边的取值和上边的一样;上右下左省略为上时,右/下/左边的取值和上边的一样-->
+
+<body>
+
+<div class="zzt"></div>
+
+</body>
+</html>

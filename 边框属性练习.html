@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>边框属性练习</title>
+
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+        }
+
+        .zzt1{
+            border: 5px solid orange;
+
+
+            /*border-top: 5px solid orange;*/
+            /*border-right: 5px solid orange;*/
+            /*border-bottom: 5px solid orange;*/
+            /*border-left: 5px solid orange;*/
+
+
+            /*border-width: 5px;*/
+            /*border-style: solid;*/
+            /*border-color: orange;*/
+
+
+            /*border-top-width: 5px;*/
+            /*border-top-style: solid;*/
+            /*border-top-color: orange;*/
+
+            /*border-right-width: 5px;*/
+            /*border-right-style: solid;*/
+            /*border-right-color: orange;*/
+
+            /*border-bottom-width: 5px;*/
+            /*border-bottom-style: solid;*/
+            /*border-bottom-color: orange;*/
+
+            /*border-left-width: 5px;*/
+            /*border-left-style: solid;*/
+            /*border-left-color: orange;*/
+        }
+
+        .zzt2{
+            /*border-top: 5px solid skyblue;*/
+            /*border-right: 5px solid pink;*/
+            /*border-bottom: 5px solid green;*/
+            /*border-left: 5px solid purple;*/
+            
+
+            border-width: 5px;
+            border-style: solid;
+            border-color: skyblue pink green purple;
+        }
+
+        .zzt3{
+            /*在同一个选择器中,后面的边框属性会覆盖前面的边框属性*/
+            border: 5px solid red;
+            border-right: 5px dashed red;
+        }
+
+        .zzt4{
+            /*border: 5px solid red;*/
+            /*border-right: 5px dashed red;*/
+            /*border-left: 5px dashed red;*/
+
+            /*border: 5px solid red;*/
+            /*border-style: solid dashed solid dashed;*/
+
+            border: 5px solid red;
+            border-style: solid dashed;
+        }
+
+        .zzt5{
+            /*none代表不需要边框*/
+            border: 5px solid deeppink;
+            border-bottom: none;
+        }
+
+        .zzt6{
+            width: 0;
+            height: 0;
+            border-width: 20px;
+            border-style: solid;
+            border-color: green white;
+            border-bottom: none;
+        }
+    </style>
+
+</head>
+
+<!--注意:在同一个选择器中,后面的边框属性会覆盖前面的边框属性;none代表不需要边框-->
+
+<body>
+
+<div class="zzt1"></div>
+<hr>
+<div class="zzt2"></div>
+<hr>
+<div class="zzt3"></div>
+<hr>
+<div class="zzt4"></div>
+<hr>
+<div class="zzt5"></div>
+<hr>
+<div class="zzt6"></div>
+
+</body>
+</html>

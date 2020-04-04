@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>外边距属性</title>
+
+    <style>
+        *{
+            /*此代码意思为:消除边框与页面之间的距离(外边距)*/
+            padding: 0;
+            margin: 0;
+        }
+
+        span{
+            /*span是行内元素,不能设置宽高,所以先转换为行内块级元素*/
+            /*此代码在浏览器显示中span标签的边框之间有间隙存在,此间隙并不是外边距,而是空格,因为在HTML中对空格/回车/tab不敏感,会把多个空格/回车/tab当作一个空格来处理,而body中的三个span标签之间有存在回车,所以浏览器中三边框之间有空格,如果将回车消除掉,那么间隙也将会被消除*/
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            background-color: orange;
+        }
+
+        div{
+            height: 100px;
+            border: 1px solid #000;
+        }
+
+        .zzt1{
+            /*margin-top: 40px;*/
+            /*margin-right: 40px;*/
+            /*margin-bottom: 40px;*/
+            /*margin-left: 40px;*/
+
+            /*margin: 40px 40px 40px 40px;*/
+
+            margin: 40px;
+        }
+    </style>
+
+</head>
+
+<!--外边距:标签和标签之间的距离就是外边距-->
+<!--格式:非连写,连写-->
+
+<!--非连写:margin-top,margin-right,margin-bottom,margin-left-->
+
+<!--连写:margin: 上 右 下 左;-->
+<!--注意:该属性的取值是按照顺时针来赋值,也就是按照上右下左来赋值,而不是按照日常生活中的上下左右-->
+<!--该属性的取值省略时的规律为:上右下左省略为上右下时,左边的取值和右边的一样;上右下左省略为上右时,左边的取值和右边的一样,下边的取值和上边的一样;上右下左省略为上时,右/下/左边的取值和上边的一样-->
+
+<!--注意:外边距那一部分是没有背景颜色的-->
+
+<body>
+
+<span class="zzt1">我是span</span>
+
+<span class="zzt2">我是span</span>
+
+<span class="zzt3">我是span</span>
+
+<div class="zzt4"></div>
+
+</body>
+</html>

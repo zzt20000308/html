@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内边距属性</title>
+
+    <style>
+        div{
+            width: 120px;
+            height: 110px;
+            border: 1px solid #000;
+            background-color: salmon;
+        }
+        .zzt1{
+            padding-top: 20px;
+        }
+
+        .zzt2{
+            padding-right: 40px;
+        }
+
+        .zzt3{
+            padding-bottom: 80px;
+        }
+
+        .zzt4{
+            padding-left: 160px;
+        }
+
+        .zzt5{
+            padding: 20px 40px 80px 160px;
+        }
+    </style>
+
+</head>
+
+<!--内边距:边框和内容之间的距离就是内边距-->
+<!--格式:非连写,连写-->
+
+<!--非连写:padding-top,padding-right,padding-bottom,padding-left-->
+
+<!--连写:padding: 上 右 下 左;-->
+<!--注意:该属性的取值是按照顺时针来赋值,也就是按照上右下左来赋值,而不是按照日常生活中的上下左右-->
+<!--该属性的取值省略时的规律为:上右下左省略为上右下时,左边的取值和右边的一样;上右下左省略为上右时,左边的取值和右边的一样,下边的取值和上边的一样;上右下左省略为上时,右/下/左边的取值和上边的一样-->
+
+<!--注意:给标签设置内边距之后,标签占有的宽度和高度会发生变化;内边距也会有背景颜色-->
+
+<body>
+
+<div class="zzt1">海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王</div>
+<hr>
+<div class="zzt2">海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王</div>
+<hr>
+<div class="zzt3">海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王</div>
+<hr>
+<div class="zzt4">海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王</div>
+<hr>
+<div class="zzt5">海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王</div>
+
+</body>
+</html>
