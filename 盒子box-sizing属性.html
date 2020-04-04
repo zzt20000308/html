@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子box-sizing属性</title>
+
+    <style>
+        .zzt1{
+            width: 300px;
+            height: 300px;
+            background-color: orange;
+        }
+
+        .zzt2{
+            width: 100px;
+            height: 200px;
+            background-color: salmon;
+            float: left;
+        }
+
+        .zzt3{
+            box-sizing: border-box;
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+            float: right;
+            border: 10px solid pink;
+        }
+    </style>
+
+</head>
+
+<!--CSS3中新增了一个box-sizing属性,这个属性可以保证我们给盒子新增padding和border属性之后,盒子元素的宽度和高度不变-->
+<!--在增加padding和border属性之后,要想保证盒子元素的宽度和高度不变,那么就必须减去一部分内容的宽度和高度,box-sizing属性就是通过这样保证增加padding和border属性之后盒子元素的宽度和高度保持不变-->
+<!--box-sizing属性取值:content-box(元素的宽高=边框+内边距+内容宽高);border-box(元素的宽高=width属性)-->
+
+<body>
+
+<div class="zzt1">
+    <div class="zzt2"></div>
+    <div class="zzt3"></div>
+</div>
+
+</body>
+</html>

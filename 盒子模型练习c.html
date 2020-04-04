@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子模型练习</title>
+
+    <style>
+        .zzt1{
+            width: 500px;
+            height: 500px;
+            box-sizing: border-box;
+            background-color: orange;
+            padding-top: 150px;
+            padding-left: 150px;
+        }
+        .zzt2{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+
+        .zzt3{
+            width: 350px;
+            height: 350px;
+            background-color: orange;
+            padding-top: 150px;
+            padding-left: 150px;
+        }
+        .zzt4{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+
+        .zzt5{
+            width: 500px;
+            height: 500px;
+            background-color: orange;
+            border: 1px solid #000;
+        }
+        .zzt6{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+
+            /*margin-top: 150px;*/
+            /*margin-left: 150px;*/
+
+            /*margin: 150px;*/
+
+            margin: 150px auto;
+        }
+    </style>
+
+</head>
+
+<!--有一个大盒子,元素的宽高为500,还有一个小盒子,元素的宽高为200,要求将小盒子放到大盒子中,并且让小盒子在大盒子中水平垂直居中-->
+
+<!--注意:如果两个盒子是嵌套关系,那么设置了里面一个盒子顶部的外边距,外面一个盒子也会被顶下来;如果外面的盒子不想被一起顶下来,那么可以给外面的盒子添加一个边框属性-->
+
+<!--在企业开发中,一般情况下如果需要控制嵌套关系的盒子之间的距离,应该首先考虑padding属性,其次再考虑margin属性,因为margin属性本质上是用于控制兄弟关系之间的间隙的-->
+
+<!--在嵌套关系的盒子中,我们可以利用"margin: 0 auto;"的方式来让里面的盒子在外面的盒子中水平居中;"margin: 0 auto;"只对水平方向方向有效,对垂直方向无效-->
+
+<body>
+
+<div class="zzt1">
+    <div class="zzt2"></div>
+</div>
+
+<hr>
+
+<div class="zzt3">
+    <div class="zzt4"></div>
+</div>
+
+<hr>
+
+<div class="zzt5">
+    <div class="zzt6"></div>
+</div>
+
+</body>
+</html>
