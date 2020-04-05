@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>还原字体和字号</title>
+
+    <style>
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+            margin:0;padding:0
+        }
+
+        p{
+            width: 610px;
+            height: 110px;
+            box-sizing: border-box;
+            background-color: #cdcdcd;
+            border: 2px solid #000000;
+            font-family: "黑体";
+            font-size: 20px;
+            line-height: 40px;
+            color: #67676d;
+            padding-left: 18px;
+            padding-top: 10px;
+        }
+    </style>
+
+</head>
+
+<!--注意:在企业开发中,如果一个盒子中存储的是文字,那么一般情况下我们会以盒子左边的内边距为基准,不会以右边的内边距为基准,因为这个右边的内边距有误差(可以只设置左边的内边距,不一定要设置右边的内边距);右边如果放不下一个文字,那么文字就会换行显示,所以文字和右边的内边距之间的距离就会有了误差;顶部的内边距并不是边框到文字顶部的距离,而是边框到行高顶部的距离-->
+
+<body>
+
+<p>葬爱:非主流文化的常用语，是当年网络流行术语且流行于非主流杀马特之中。葬，埋葬，爱，即爱情，翻译成外语就bury love</p>
+
+</body>
+</html>
