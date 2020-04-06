@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动方式四</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .zzt1{
+            background-color: orange;
+        }
+
+        .zzt2{
+            background-color: tomato;
+        }
+
+        .zzt1 p{
+            width: 100px;
+            background-color: skyblue;
+        }
+
+        .zzt2 p{
+            width: 100px;
+            background-color: pink;
+        }
+
+        p{
+            float: left;
+        }
+
+        .zzt1::after{
+            /*设置添加的子元素的内容为空*/
+            content: "";
+
+            /*设置添加的子元素为块级元素*/
+            display: block;
+
+            /*设置添加的子元素的高度为0*/
+            height: 0;
+
+            /*设置添加的子元素看不见*/
+            visibility: hidden;
+
+            /*重要:给添加的子元素设置clear: both;属性*/
+            clear: both;
+        }
+
+        .zzt1{
+            /*兼容IE6浏览器*/
+            *zoom:1;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="zzt1">
+    <p>海贼王1</p>
+    <p>海贼王1</p>
+    <p>海贼王1</p>
+</div>
+
+<div class="zzt2">
+    <p>海贼王2</p>
+    <p>海贼王2</p>
+    <p>海贼王2</p>
+</div>
+
+</body>
+</html>

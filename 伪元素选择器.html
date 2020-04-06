@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪元素选择器</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+        }
+
+        div::before{
+            content: "One Piece";
+            width: 100px;
+            height: 50px;
+            background-color: skyblue;
+            display: block;
+        }
+
+        div::after{
+            /*指定添加的子元素中存储的内容*/
+            content: "路飞";
+
+            /*指定添加的子元素的宽度和高度*/
+            width: 100px;
+            /*height: 50px;*/
+            /*将高度设置为0内容也能正常(不占用空间),只是背景颜色没了*/
+            height: 0;
+
+            /*指定添加的子元素的背景颜色*/
+            background-color: skyblue;
+
+            /*指定添加的子元素的显示模式*/
+            display: block;
+
+            /*隐藏添加的子元素*/
+            visibility: hidden;
+        }
+    </style>
+
+</head>
+
+<!--伪元素选择器:就是给指定标签的内容前面添加一个子元素,或者给指定标签的内容后面添加一个子元素-->
+<!--格式:"标签名称::before{属性名称:值;}",给指定标签的内容前面添加一个子元素;"标签名称::after{属性名称:值;}",给指定标签的内容后面添加一个子元素-->
+
+<body>
+
+<div>
+    海贼王
+</div>
+
+</body>
+</html>
