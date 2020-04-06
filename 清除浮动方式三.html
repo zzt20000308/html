@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> 清除浮动方式三</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .zzt1{
+            background-color: orange;
+            /*margin-bottom: 20px;*/
+        }
+
+        .zzt2{
+            background-color: tomato;
+            /*margin-top: 20px;*/
+        }
+
+        .zzt1 p{
+            width: 100px;
+            background-color: skyblue;
+        }
+
+        .zzt2 p{
+            width: 100px;
+            background-color: pink;
+        }
+
+        p{
+            float: left;
+        }
+
+        .wall{
+            clear: both;
+            height: 20px;
+            background-color: deeppink;
+        }
+
+        /*.h20{*/
+        /*    height: 20px;*/
+        /*    background-color: deeppink;*/
+        /*}*/
+    </style>
+
+</head>
+
+<!-- 清除浮动方式三:隔墙法-->
+
+<!--外墙法:在两个盒子中间添加一个额外的块级元素,然后给这个额外添加的块级元素设置"clear: both;"属性-->
+<!--注意:外墙法可以让第二个盒子使用margin-top属性,但不可以让第一个盒子使用margin-bottom属性-->
+<!--在企业开发中,使用外墙法的注意点:不要设置第一个盒子的margin-bottom属性,也不要设置第二个盒子的margin-top属性,而是直接设置额外添加的标签的高度即可(额外添加的标签也可以设置背景颜色等属性)-->
+
+<!--内墙法:在第一个盒子中所有子元素最后添加一个额外的块级元素,然后给这个额外添加的块级元素设置"clear: both;"属性-->
+<!--注意:-->
+
+<body>
+
+<div class="zzt1">
+    <p>海贼王1</p>
+    <p>海贼王1</p>
+    <p>海贼王1</p>
+    <div class="wall h20"></div>
+</div>
+
+<!--每个标签可以有多个类名-->
+<!--<div class="wall h20"></div>-->
+
+<div class="zzt2">
+    <p>海贼王2</p>
+    <p>海贼王2</p>
+    <p>海贼王2</p>
+</div>
+
+</body>
+</html>

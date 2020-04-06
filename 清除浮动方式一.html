@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动方式一</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .zzt1{
+            background-color: orange;
+            height: 22px;
+        }
+
+        .zzt2{
+            background-color: tomato;
+        }
+
+        .zzt1 p{
+            width: 100px;
+            background-color: skyblue;
+        }
+
+        .zzt2 p{
+            width: 100px;
+            background-color: pink;
+        }
+
+        p{
+            float: left;
+        }
+    </style>
+
+</head>
+
+<!--清除浮动方式一:给前面一个父元素设置高度-->
+<!--注意:在企业开发中,我们能不写高度就不写高度,所以这种方式用得很少-->
+
+<body>
+
+<div class="zzt1">
+    <p>海贼王1</p>
+    <p>海贼王1</p>
+    <p>海贼王1</p>
+</div>
+
+<div class="zzt2">
+    <p>海贼王2</p>
+    <p>海贼王2</p>
+    <p>海贼王2</p>
+</div>
+
+</body>
+</html>

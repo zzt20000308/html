@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动方式二</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .zzt1{
+            background-color: orange;
+        }
+
+        .zzt2{
+            background-color: tomato;
+            clear: both;
+            /*margin-top: 50px;*/
+        }
+
+        .zzt1 p{
+            width: 100px;
+            background-color: skyblue;
+        }
+
+        .zzt2 p{
+            width: 100px;
+            background-color: pink;
+        }
+
+        p{
+            float: left;
+        }
+    </style>
+
+</head>
+
+<!--清除浮动方式二:给后面的盒子添加clear属性-->
+<!--clear属性取值:none,left,right,both-->
+<!--none:默认取值,按照浮动元素的排序规则来排序(左浮动找左浮动,右浮动找右浮动)-->
+<!--left:不要找前面的左浮动元素-->
+<!--right:不要找前面的右浮动元素-->
+<!--both:不要找前面的左浮动元素和右浮动元素(企业开发中,想通过添加clear属性清除浮动,都用both)-->
+<!--注意:当我们给某个元素添加clear属性之后,那么这个元素的margin属性就会失效-->
+
+<body>
+
+<div class="zzt1">
+    <p>海贼王1</p>
+    <p>海贼王1</p>
+    <p>海贼王1</p>
+</div>
+
+<div class="zzt2">
+    <p>海贼王2</p>
+    <p>海贼王2</p>
+    <p>海贼王2</p>
+</div>
+
+</body>
+</html>
