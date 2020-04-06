@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动元素高度问题</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        div{
+            border: 1px solid #000;
+        }
+
+        p.zzt1{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+        }
+
+        p.zzt2{
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            float: left;
+        }
+    </style>
+
+</head>
+
+<!--在标准流中,内容的高度可以撑起父元素的高度;而在浮动流中,浮动的元素是不可以撑起父元素的高度的-->
+
+<body>
+
+<div>
+    <p class="zzt1"></p>
+</div>
+
+<br><br><br><br>
+
+<div>
+    <p class="zzt2"></p>
+</div>
+
+</body>
+</html>

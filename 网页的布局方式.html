@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网页的布局方式</title>
+
+    <style>
+        /**{*/
+        /*    padding: 0;*/
+        /*    margin: 0;*/
+        /*}*/
+
+        div,h1,p{
+            border: 1px solid #000;
+        }
+        
+        span,strong,b{
+            border: 1px solid #000;
+        }
+
+        .zzt1{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            /*display: inline-block;*/
+            float: left;
+        }
+
+        .zzt2{
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            /*display: inline-block;*/
+            float: right;
+        }
+
+        .zzt3{
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+            float: left;
+        }
+
+        .zzt4{
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            float: right;
+        }
+    </style>
+
+</head>
+
+<!--网页的布局方式:其实就是指浏览器是如何对网页中的元素进行排版的-->
+<!--前端开发中常见的排版方式主要有三种:标准流(文档流/普通流)排版方式,浮动流排版方式,定位流排版方式-->
+
+<!--标准流(文档流/普通流)排版方式:其实浏览器默认的排版方式就是标准流的排版方式;在CSS中将元素分为三类,分别是块级元素/行内元素/行内块级元素;在标准流中有两种排版方式,一种是垂直排版,一种是水平排版;如果元素是块级元素,那么就会垂直排版,如果元素是行内元素/行内块级元素,那么就会水平排版-->
+
+<!--浮动流排版方式:浮动流是一种"半脱离标准流"的排版方式;浮动流只有一种排版方式,就是水平排版,只能设置某个元素左对齐或者右对齐-->
+<!--注意:浮动流中没有居中对齐,也就是没有center这个取值;在浮动流中是不可以使用"margin: 0 auto;"的-->
+<!--特点:在浮动流中是不区分块级元素/行内元素/行内块级元素的,也就是说在块级元素中不用设置"display: inline-block;"也会从垂直方向排版变成水平方向排版,所以无论是块级元素/行内元素/行内块级元素都可以水平排版;在浮动流中,无论是块级元素/行内元素/行内块级元素都可以设置宽高属性;综上所述,浮动流中的元素和标准流中的行内块级元素很像-->
+
+<body>
+
+<div>div</div>
+
+<h1>标题</h1>
+
+<p>段落</p>
+
+<span>span</span>
+
+<strong>强调</strong>
+
+<b>加粗</b>
+
+<br><br><br><br><br>
+
+<div class="zzt1"></div>
+
+<div class="zzt2"></div>
+
+<br><br><br><br><br>
+
+<span class="zzt3"></span>
+
+<span class="zzt4"></span>
+
+</body>
+</html>

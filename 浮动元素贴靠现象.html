@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动元素贴靠现象</title>
+
+    <style>
+        .father1{
+            width: 400px;
+            height: 400px;
+            border: 1px solid #000;
+        }
+
+        .zzt1{
+            width: 50px;
+            height: 300px;
+            background-color: orange;
+            float: left;
+        }
+
+        .zzt2{
+            width: 50px;
+            height: 100px;
+            background-color: skyblue;
+            float: left;
+        }
+
+        .zzt3{
+            width: 250px;
+            height: 100px;
+            background-color: purple;
+            float: left;
+        }
+
+        .father2{
+            width: 400px;
+            height: 400px;
+            border: 1px solid #000;
+        }
+
+        .zzt4{
+            width: 100px;
+            height: 300px;
+            background-color: orange;
+            float: left;
+        }
+
+        .zzt5{
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+            float: left;
+        }
+
+        .zzt6{
+            width: 250px;
+            height: 100px;
+            background-color: purple;
+            float: left;
+        }
+
+        .father3{
+            width: 400px;
+            height: 400px;
+            border: 1px solid #000;
+        }
+
+        .zzt7{
+            width: 100px;
+            height: 300px;
+            background-color: orange;
+            float: left;
+        }
+
+        .zzt8{
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+            float: left;
+        }
+
+        .zzt9{
+            width: 450px;
+            height: 50px;
+            background-color: purple;
+            float: left;
+        }
+    </style>
+
+</head>
+
+<!--浮动元素贴靠现象:当父元素的宽度足够放下所有浮动元素时,那么就会并列显示(如father1);当父元素的宽度不足够放下所有浮动元素时,那么就会从最后一个浮动元素开始往前贴靠(如father2);当最后一个浮动元素往前贴靠所有的浮动元素后宽度还不够,那么就会贴靠父元素,此时不管父元素的宽度够不够,都会贴靠父元素(如father3)-->
+
+<body>
+
+<div class="father1">
+    <div class="zzt1"></div>
+    <div class="zzt2"></div>
+    <div class="zzt3"></div>
+</div>
+
+<div class="father2">
+    <div class="zzt4"></div>
+    <div class="zzt5"></div>
+    <div class="zzt6"></div>
+</div>
+
+<div class="father3">
+    <div class="zzt7"></div>
+    <div class="zzt8"></div>
+    <div class="zzt9"></div>
+</div>
+
+</body>
+</html>

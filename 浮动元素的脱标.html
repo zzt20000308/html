@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浮动元素的脱标</title>
+
+    <style>
+        .zzt1{
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            float: left;
+        }
+
+        .zzt2{
+            width: 150px;
+            height: 150px;
+            background-color: deeppink;
+        }
+    </style>
+
+</head>
+
+<!--浮动元素的脱标:脱标即脱离标准流,当某一个元素浮动之后,那么这个元素看上去就像被从标准流中删除了一样,这个就是浮动元素的脱标-->
+<!--浮动元素脱标之后的影响:如果前面一个元素浮动了,而后面一个元素没有浮动,那么这个时候前面的一个元素就是盖住后面的一个元素-->
+
+<body>
+
+<div class="zzt1"></div>
+
+<div class="zzt2"></div>
+
+</body>
+</html>
