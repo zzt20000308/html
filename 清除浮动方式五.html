@@ -3,8 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <title>清除浮动方式五</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /*div{*/
+        /*    width: 120px;*/
+        /*    height: 100px;*/
+        /*    background-color: orange;*/
+        /*    overflow: hidden;*/
+        /*}*/
+
+        .zzt1{
+            background-color: orange;
+            /*margin-bottom: 20px;*/
+            overflow: hidden;
+            *zoom:1;
+        }
+
+        .zzt2{
+            background-color: tomato;
+            /*margin-top: 20px;*/
+        }
+
+        .zzt1 p{
+            width: 100px;
+            background-color: skyblue;
+        }
+
+        .zzt2 p{
+            width: 100px;
+            background-color: pink;
+        }
+
+        p{
+            float: left;
+        }
+
+        /*.zzt1{*/
+        /*    *zoom:1;*/
+        /*}*/
+
+        .zzt3{
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            /*border: 1px solid #000;*/
+            overflow: hidden;
+        }
+
+        .zzt4{
+            width: 100px;
+            height: 100px;
+            background-color: deeppink;
+            margin-top: 30px;
+        }
+    </style>
+
 </head>
+
+<!--"overflow: hidden;":可以将超出标签范围的内容裁剪掉;清除浮动;可以通过"overflow: hidden;"让里面的盒子设置margin-top之后,外面的盒子不被顶下来-->
+
 <body>
+
+<!--<div>海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/海贼王/</div>-->
+
+<div class="zzt1">
+    <p>海贼王1</p>
+    <p>海贼王1</p>
+    <p>海贼王1</p>
+</div>
+
+<div class="zzt2">
+    <p>海贼王2</p>
+    <p>海贼王2</p>
+    <p>海贼王2</p>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<div class="zzt3">
+    <div class="zzt4"></div>
+</div>
 
 </body>
 </html>

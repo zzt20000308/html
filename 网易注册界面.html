@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网易注册界面</title>
+
+    <style>
+        /*清空默认边距*/
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+            margin:0;padding:0
+        }
+
+        /*清空默认样式*/
+        a{
+            text-decoration: none;
+            color: #ccc;
+        }
+
+        /*清空默认样式*/
+        ul,ol{
+            list-style: none;
+        }
+
+        /*利用body设置整个界面的文字信息:文字大小/文字字体/文字颜色*/
+        body{
+            font-size: 15px;
+            font-family: "宋体";
+        }
+
+
+        .header{
+            width: 1000px;
+            height: 100px;
+            margin: 0 auto;
+            padding-top: 35px;
+            box-sizing: border-box;
+        }
+
+        .header .logo{
+            width: 720px;
+            height: 30px;
+            background: url("./images/Netease1.png") no-repeat 0 0;
+            float: left;
+        }
+
+        .header .logo a{
+            width: 135px;
+            height: 30px;
+            display: inline-block;
+        }
+
+        .header .links{
+            width: 200px;
+            height: 27px;
+            float: right;
+            text-align: right;
+        }
+
+        .header .links a{
+            line-height: 27px;
+        }
+
+
+        .content{
+            width: 1000px;
+            height: 740px;
+            margin: 0 auto;
+        }
+
+        .content .top{
+            width: 1000px;
+            height: 60px;
+            background: url("./images/Netease2.png") repeat-x;
+        }
+
+        .content .left{
+            width: 1000px;
+            height: 60px;
+            background: url("./images/Netease3.png") no-repeat left 0;
+        }
+
+        .content .right{
+            width: 1000px;
+            height: 60px;
+            background: url("./images/Netease4.png") no-repeat right 0;
+            
+        }
+
+        .content .right p{
+            color: white;
+            line-height: 60px;
+            text-indent: 2em;
+        }
+
+        .content .bottom{
+            width: 1000px;
+            height: 680px;
+        }
+
+        .content .bottom .article{
+            width: 680px;
+            height: 680px;
+            float: left;
+            padding-top: 80px;
+            padding-left: 100px;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+
+        .content .bottom .article .articletop{
+            width: 580px;
+            height: 80px;
+        }
+
+        .content .bottom .article .articletop ul{
+            width: 500px;
+            height: 40px;
+            background: url("./images/Netease6.jpg") no-repeat left 0;
+            font-size: 18px;
+        }
+
+        .content .bottom .article .articletop ul li{
+            float: left;
+            width: 160px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .content .bottom .article .articlebottom{
+            width: 580px;
+            height: 450px;
+        }
+
+        .content .bottom .article .articlebottom .line{
+            width: 480px;
+            height: 30px;
+        }
+
+        .content .bottom .article .articlebottom .line span{
+            width: 90px;
+            height: 30px;
+            float: left;
+            font-size: 17px;
+            line-height: 30px;
+            text-align: right;
+        }
+
+        .content .bottom .article .articlebottom .line span .zzt1{
+            width: 20px;
+            color: red;
+        }
+
+        .content .bottom .article .articlebottom .line div{
+            width: 360px;
+            height: 30px;
+            float: right;
+        }
+
+        .content .bottom .article .articlebottom .line div input{
+            width: 230px;
+            height: 26px;
+        }
+
+        .content .bottom .article .articlebottom .line div select{
+            width: 100px;
+            height: 30px;
+        }
+
+        .content .bottom .article .articlebottom p{
+            font-size: 12px;
+            margin-left: 120px;
+            line-height: 28px;
+        }
+
+        .content .bottom .article .articlebottom .line span .zzt2{
+            width: 53px;
+            color: red;
+        }
+
+        .content .bottom .article .articlebottom .line div input.special{
+            width: 355px;
+        }
+
+        .content .bottom .article .articlebottom .line span .zzt3{
+            width: 35px;
+            color: red;
+        }
+
+        .content .bottom .article .articlebottom .line div img{
+            width: 100px;
+            height: 29px;
+            float: right;
+        }
+
+        .content .bottom .article .articlebottom .line div input.vcode{
+            float: left;
+        }
+
+        .content .bottom .article .articlebottom input[type=submit]{
+            width: 132px;
+            height: 42px;
+            background: url("./images/Netease1.png") no-repeat -158px -395px;
+            border: none;
+            font-size: 20px;
+            color: white;
+            margin-left: 210px;
+            margin-top: 50px;
+        }
+
+        .content .bottom .aside{
+            width: 320px;
+            height: 680px;
+            float: right;
+            padding-top: 150px;
+            padding-left: 32px;
+            box-sizing: border-box;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+
+
+        .footer{
+            width: 1000px;
+            height: 60px;
+            margin: 0 auto;
+            border-top: none;
+        }
+
+        .footer p{
+            color: #ccc;
+            text-align: center;
+            line-height: 60px;
+        }
+    </style>
+
+</head>
+
+<!--在企业开发中,看到选项卡或者导航条,第一时间想到ul和li-->
+<!--在企业开发中,想让多个盒子的顶部对齐,我们可以让多个盒子同时浮动-->
+
+<body>
+
+<!--头部开始-->
+<div class="header">
+    <div class="logo">
+        <a href="#" title="网易163免费邮"></a>
+        <a href="#" title="网易126免费邮"></a>
+        <a href="#" title="网易Yeah.net免费邮"></a>
+    </div>
+    
+    <div class="links">
+        <a href="#">了解更多</a>
+        |
+        <a href="#">反馈意见</a>
+    </div>
+</div>
+<!--头部结束-->
+
+
+<!--内容开始-->
+<div class="content">
+    <!--内容顶部开始-->
+    <div class="top">
+        <div class="left">
+            <div class="right">
+                <p>欢迎注册无限容量的网易邮箱！邮件地址可以登录使用其他网易旗下产品。</p>
+            </div>
+        </div>
+    </div>
+    <!--内容顶部结束-->
+
+    <!--内容底部开始-->
+    <div class="bottom">
+        <div class="article">
+            <div class="articletop">
+                <ul>
+                    <li>注册字母邮箱</li>
+                    <li>注册手机号码邮箱</li>
+                    <li>注册VIP邮箱</li>
+                </ul>
+            </div>
+            <div class="articlebottom">
+                <div class="line">
+                    <span><span class="zzt1">*</span>邮件地址</span>
+                    <div>
+                        <input type="text" value="建议使用手机号码注册">
+                        @
+                        <select>
+                            <option value="163.com">163.com</option>
+                            <option value="126.com">126.com</option>
+                            <option value="lnj.net">lnj.net</option>
+                        </select>
+                    </div>
+                </div>
+                <p>6~8个字符，可使用字母、数字、下划线，需以字母开头</p>
+
+                <div class="line">
+                    <span><span class="zzt2">*</span>密码</span>
+                    <div>
+                        <input type="password" class="special">
+                    </div>
+                </div>
+                <p>6~16个字符，区分大小写</p>
+
+                <div class="line">
+                    <span><span class="zzt1">*</span>确认密码</span>
+                    <div>
+                        <input type="password" class="special">
+                    </div>
+                </div>
+                <p>请再次填写密码</p>
+
+                <div class="line">
+                    <span><span class="zzt1">*</span>手机号码</span>
+                    <div>
+                        <input type="text" class="special">
+                    </div>
+                </div>
+                <p>忘记密码时，可以通过该手机号码快速找回密码</p>
+
+                <div class="line">
+                    <span><span class="zzt3">*</span>验证码</span>
+                    <div>
+                        <input type="text" class="vcode">
+                        <img src="./images/Netease7.jpg">
+                    </div>
+                </div>
+                <p>请填写图片中的字符，不区分大小写</p>
+
+                <p>
+                    <input type="checkbox" checked="checked">
+                    同意
+                    <a href="#">“服务条款”</a>
+                    和
+                    <a href="#">“隐私权保护和个人信息利用政策”</a>
+                </p>
+
+                <input type="submit" value="立即注册">
+            </div>
+        </div>
+
+        <div class="aside">
+            <img src="./images/Netease5.jpg">
+        </div>
+    </div>
+    <!--内容底部结束-->
+</div>
+<!--内容结束-->
+
+
+<!--底部开始-->
+<div class="footer">
+    <p>
+        <a href="#">关于网易</a>
+        <a href="#">关于网易免费邮</a>
+        <a href="#">邮箱官方博客</a>
+        <a href="#">客户服务</a>
+        <a href="#">隐私政策</a>
+        | 网易公司版权所有 &copy; 1997-2016
+    </p>
+</div>
+<!--底部结束-->
+
+</body>
+</html>
