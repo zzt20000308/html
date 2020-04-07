@@ -2,39 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc909cb3-75de-4de9-ad02-d83b37e6829e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/1-yui css reset.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-假链接.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-锚点.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/12-锚点测试.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-无序列表.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/14-无序列表练习1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/15-无序列表练习2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/16-无序列表练习3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/17-有序列表.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/18-定义列表.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/19-定义列表练习.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-h标签-p标签-hr标签-u标签.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/20-表格标签的使用.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/21-表格标签的属性.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/22-细线表格.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/23-表格标签中的其他标签.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/24-表格的结构.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/25-单元格合并.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/26-单元格合并练习.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/27-表单标签.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/28-表单标签2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/29-label标签.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-标签综合练习.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/30-datalist标签.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/31-表单标签(H5标签).html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/32-表单标签3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/33-表单练习.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/4-注释.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-img标签.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6-br标签.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7-a标签的使用.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/8-a标签其他属性.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9-base标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/37-详情和概要标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/38-marquee标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/39-HTML中被废弃的标签.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/40-字符实体.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/41-体验CSS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/42-CSS的格式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/43-文字属性.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/44-字体属性补充.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/45-文字属性的缩写.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/46-文本属性.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/47-颜色属性.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/48-标签选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/49-id选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/50-类选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/51-id选择器和class选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/52-后代选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/53-子元素选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/54-后代选择器和子元素选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/55-交集选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/56-并集选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/57-兄弟选择器.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/58-序选择器1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/59-序选择器2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/60-序选择器3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/61-属性选择器1.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +100,7 @@
       <workItem from="1586133044349" duration="35360000" />
       <workItem from="1586220180341" duration="20789000" />
       <workItem from="1586244191984" duration="18635000" />
-      <workItem from="1586276140034" duration="464000" />
+      <workItem from="1586276140034" duration="786000" />
     </task>
     <servers />
   </component>
