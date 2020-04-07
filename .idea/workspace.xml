@@ -3,6 +3,64 @@
   <component name="ChangeListManager">
     <list default="true" id="fc909cb3-75de-4de9-ad02-d83b37e6829e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS三大特性之优先级.html" beforeDir="false" afterPath="$PROJECT_DIR$/75-CSS三大特性之优先级.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS三大特性之层叠性.html" beforeDir="false" afterPath="$PROJECT_DIR$/74-CSS三大特性之层叠性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS三大特性之继承性.html" beforeDir="false" afterPath="$PROJECT_DIR$/73-CSS三大特性之继承性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS元素显示模式转换.html" beforeDir="false" afterPath="$PROJECT_DIR$/80-CSS元素显示模式转换.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS元素的显示模式.html" beforeDir="false" afterPath="$PROJECT_DIR$/79-CSS元素的显示模式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS盒子模型.html" beforeDir="false" afterPath="$PROJECT_DIR$/100-CSS盒子模型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS精灵图.html" beforeDir="false" afterPath="$PROJECT_DIR$/91-CSS精灵图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS精灵图练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/92-CSS精灵图练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/br标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/5-br标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/div和span标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/78-div和span标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/h标签-p标签-hr标签-u标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/1-h标签-p标签-hr标签-u标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/4-img标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yui css reset.txt" beforeDir="false" afterPath="$PROJECT_DIR$/0-yui css reset.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/优先级之important.html" beforeDir="false" afterPath="$PROJECT_DIR$/76-优先级之important.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/优先级之权重问题.html" beforeDir="false" afterPath="$PROJECT_DIR$/77-优先级之权重问题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/伪元素选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/119-伪元素选择器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/内边距属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/97-内边距属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外边距合并现象.html" beforeDir="false" afterPath="$PROJECT_DIR$/99-外边距合并现象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外边距属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/98-外边距属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/定位流-相对定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/123-定位流-相对定位.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/定位流-绝对定位.html" beforeDir="false" afterPath="$PROJECT_DIR$/124-定位流-绝对定位.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文章界面.html" beforeDir="false" afterPath="$PROJECT_DIR$/108-文章界面.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/标签综合练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/2-标签综合练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/注释.html" beforeDir="false" afterPath="$PROJECT_DIR$/3-注释.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/浮动元素字围现象.html" beforeDir="false" afterPath="$PROJECT_DIR$/113-浮动元素字围现象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/浮动元素排序规则.html" beforeDir="false" afterPath="$PROJECT_DIR$/111-浮动元素排序规则.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/浮动元素的脱标.html" beforeDir="false" afterPath="$PROJECT_DIR$/110-浮动元素的脱标.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/浮动元素贴靠现象.html" beforeDir="false" afterPath="$PROJECT_DIR$/112-浮动元素贴靠现象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/浮动元素高度问题.html" beforeDir="false" afterPath="$PROJECT_DIR$/115-浮动元素高度问题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/浮动练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/114-浮动练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/清空默认边距.html" beforeDir="false" afterPath="$PROJECT_DIR$/105-清空默认边距.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/清除浮动方式一.html" beforeDir="false" afterPath="$PROJECT_DIR$/116-清除浮动方式一.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/清除浮动方式三.html" beforeDir="false" afterPath="$PROJECT_DIR$/118-清除浮动方式三.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/清除浮动方式二.html" beforeDir="false" afterPath="$PROJECT_DIR$/117-清除浮动方式二.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/清除浮动方式五.html" beforeDir="false" afterPath="$PROJECT_DIR$/121-清除浮动方式五.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/清除浮动方式四.html" beforeDir="false" afterPath="$PROJECT_DIR$/120-清除浮动方式四.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/百度首页.html" beforeDir="false" afterPath="$PROJECT_DIR$/81-百度首页.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/盒子box-sizing属性.html" beforeDir="false" afterPath="$PROJECT_DIR$/102-盒子box-sizing属性.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/盒子居中和内容居中.html" beforeDir="false" afterPath="$PROJECT_DIR$/104-盒子居中和内容居中.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/盒子模型宽度和高度.html" beforeDir="false" afterPath="$PROJECT_DIR$/101-盒子模型宽度和高度.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/盒子模型练习c.html" beforeDir="false" afterPath="$PROJECT_DIR$/103-盒子模型练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网易注册界面.html" beforeDir="false" afterPath="$PROJECT_DIR$/122-网易注册界面.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网页的布局方式.html" beforeDir="false" afterPath="$PROJECT_DIR$/109-网页的布局方式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/背景关联方式.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/背景图片.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/背景图片和插入图片的区别.html" beforeDir="false" afterPath="$PROJECT_DIR$/89-背景图片和插入图片的区别.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/背景图片练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/90-背景图片练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/背景定位属性1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/背景定位属性2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/背景平铺属性.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/背景缩写.html" beforeDir="false" afterPath="$PROJECT_DIR$/88-背景缩写.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/背景颜色.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/行高和字号.html" beforeDir="false" afterPath="$PROJECT_DIR$/106-行高和字号.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/边框属性1.html" beforeDir="false" afterPath="$PROJECT_DIR$/93-边框属性1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/边框属性2.html" beforeDir="false" afterPath="$PROJECT_DIR$/94-边框属性2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/边框属性3.html" beforeDir="false" afterPath="$PROJECT_DIR$/95-边框属性3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/边框属性练习.html" beforeDir="false" afterPath="$PROJECT_DIR$/96-边框属性练习.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/还原字体和字号.html" beforeDir="false" afterPath="$PROJECT_DIR$/107-还原字体和字号.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +133,7 @@
       <workItem from="1586078328585" duration="15047000" />
       <workItem from="1586133044349" duration="35360000" />
       <workItem from="1586220180341" duration="20789000" />
-      <workItem from="1586244191984" duration="10308000" />
+      <workItem from="1586244191984" duration="15096000" />
     </task>
     <servers />
   </component>
