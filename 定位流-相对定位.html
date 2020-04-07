@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位流-相对定位</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            width: 100px;
+            height: 100px;
+        }
+
+        .zzt1{
+            background-color: orange;
+        }
+
+        .zzt2{
+            background-color: pink;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+
+        .zzt3{
+            background-color: skyblue;
+        }
+
+        .zzt4{
+            background-color: orange;
+        }
+
+        .zzt5{
+            background-color: pink;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .zzt6{
+            background-color: skyblue;
+        }
+
+        span{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+        }
+
+        input{
+            width: 200px;
+            height: 50px;
+        }
+
+        img{
+            width: 100px;
+            height: 50px;
+            position: relative;
+            top: 20px;
+        }
+    </style>
+
+</head>
+
+<!--定位流分类:相对定位,绝对定位,固定定位,静态定位-->
+<!--相对定位:就是相对于自己以前在标准流中的位置来移动,借助top/left/bottom/right这些定位属性来移动-->
+<!--注意:相对定位是不脱离标准流的,会继续在标准流中占用一份空间;在相对定位中同一个方向上的定位属性只能使用一个(即left/right只能出现一个,不能同时出现,top/bottom同理);由于相对定位是不脱离标准流的,所以在相对定位中是区分块级元素/行内元素/行内块级元素的;由于相对定位是不脱离标准流的,并且相对定位的元素会占用标准流中的位置,所以当给相对定位的元素设置margin/padding等属性的时候会影响到标准流的布局-->
+<!--相对定位的应用场景:用于对元素进行微调;配合后面学习的绝对定位来使用-->
+
+<body>
+
+<div class="zzt1"></div>
+
+<div class="zzt2"></div>
+
+<div class="zzt3"></div>
+
+<br><br><br>
+
+<div class="zzt4"></div>
+
+<div class="zzt5"></div>
+
+<div class="zzt6"></div>
+
+<br><br><br>
+
+<span>span</span>
+
+<br><br><br>
+
+<input type="text">
+
+<img src="./images/Netease7.jpg">
+
+</body>
+</html>

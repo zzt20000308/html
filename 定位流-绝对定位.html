@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位流-绝对定位</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            width: 100px;
+            height: 100px;
+        }
+
+        .zzt1{
+            background-color: orange;
+        }
+
+        .zzt2{
+            background-color: pink;
+            position: absolute;
+            /*top: 0;*/
+            bottom: 0;
+            left: 0;
+            /*right: 0;*/
+        }
+
+        .zzt3{
+            background-color: skyblue;
+        }
+
+        .zzt4{
+            background-color: orange;
+        }
+
+        .zzt5{
+            background-color: pink;
+            position: absolute;
+            /*float: left;*/
+        }
+
+        .zzt6{
+            background-color: skyblue;
+        }
+
+        span{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: tomato;
+        }
+    </style>
+
+</head>
+
+<!--绝对定位:就是相对于body来进行定位-->
+<!--注意:绝对定位的元素是脱离标准流的;绝对定位的元素是不区分块级元素/行内元素/行内块级元素的(所有的元素都可以设置宽高)-->
+
+<body>
+
+<div class="zzt1"></div>
+
+<div class="zzt2"></div>
+
+<div class="zzt3"></div>
+
+<br><br><br>
+
+<div class="zzt4"></div>
+
+<div class="zzt5"></div>
+
+<div class="zzt6"></div>
+
+<br><br><br>
+
+<span>span</span>
+
+</body>
+</html>
