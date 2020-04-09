@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位练习1</title>
+
+    <style>
+        *{
+            margin: 0;
+            height: 0;
+        }
+
+        div{
+            width: 300px;
+            height: 300px;
+            border: 2px solid #ccc;
+            /*margin: 0 auto;*/
+            /*margin-top: 100px;*/
+            margin: 100px auto;
+            position: relative;
+        }
+
+        div img{
+            width: 300px;
+            height: 200px;
+        }
+
+        /*本来span标签是行内元素,无法设置宽高,得通过display属性进行转换才能设置宽高,但是因为绝对定位元素会脱离标准流,不区分块级元素/行内元素/行内块级元素,所以不需要display属性转换*/
+        div .zzt1{
+            width: 45px;
+            height: 44px;
+            /*display: inline-block;*/
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: url("./images/Icon3.png") no-repeat 0 -280px;
+        }
+
+        /*本来span标签是行内元素,无法设置宽高,得通过display属性进行转换才能设置宽高,但是因为绝对定位元素会脱离标准流,不区分块级元素/行内元素/行内块级元素,所以不需要display属性转换*/
+        div .zzt2{
+            width: 134px;
+            height: 42px;
+            /*display: inline-block;*/
+            position: absolute;
+            background: url("./images/Icon3.png") no-repeat 0 -362px;
+            left: -7px;
+            top: 163px;
+        }
+    </style>
+
+</head>
+
+<!--精灵图:设置给某一个标签当作背景,然后再利用背景的定位属性显示需要的图片-->
+<!--在企业开发中,发现某一个元素盖在另外一个元素上面,第一时间想到定位流,使用定位流时,第一时间想到子绝父相-->
+
+<body>
+
+<div>
+    <img src="./images/Exercise2.jpg">
+
+    <span class="zzt1"></span>
+
+    <span class="zzt2"></span>
+
+    <p>【2店通用】Love Taste爱味道牛排生活馆 双人套餐，提供免费WiFi</p>
+</div>
+
+</body>
+</html>

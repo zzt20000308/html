@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fc909cb3-75de-4de9-ad02-d83b37e6829e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/126-绝对定位-子绝父相.html" beforeDir="false" afterPath="$PROJECT_DIR$/126-绝对定位-子绝父相.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/127-绝对定位-水平居中.html" beforeDir="false" afterPath="$PROJECT_DIR$/127-绝对定位-水平居中.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,7 @@
       <workItem from="1586244191984" duration="18635000" />
       <workItem from="1586276140034" duration="1277000" />
       <workItem from="1586361496544" duration="329000" />
-      <workItem from="1586398154120" duration="10577000" />
+      <workItem from="1586398154120" duration="15020000" />
     </task>
     <servers />
   </component>

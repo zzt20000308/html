@@ -11,14 +11,19 @@
         }
 
         div{
-            width: 300px;
+            width: 400px;
             height: 50px;
             background-color: orange;
-            margin: 0 auto;
+            position: absolute;
+            left: 50%;
+            margin-left: -200px;
         }
     </style>
 
 </head>
+
+<!--让绝对定位的元素水平居中的方法:只需要设置绝对定位元素的left为50%(即left:50%;),然后再设置绝对定位元素的margin-left属性的取值为负数,并且大小为宽度的一半(即假如width的取值为"300px",那么margin-left的取值为"-150px")-->
+
 <body>
 
 <div></div>
