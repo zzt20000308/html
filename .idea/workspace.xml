@@ -3,40 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc909cb3-75de-4de9-ad02-d83b37e6829e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100-CSS盒子模型.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/101-盒子模型宽度和高度.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/102-盒子box-sizing属性.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/103-盒子模型练习.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/104-盒子居中和内容居中.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/105-清空默认边距.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/106-行高和字号.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/107-还原字体和字号.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/108-文章界面.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/109-网页的布局方式.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/110-浮动元素的脱标.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/111-浮动元素排序规则.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/112-浮动元素贴靠现象.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/113-浮动元素字围现象.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/114-浮动练习.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/115-浮动元素高度问题.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/116-清除浮动方式一.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/117-清除浮动方式二.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/118-清除浮动方式三.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/119-伪元素选择器.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/120-清除浮动方式四.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/121-清除浮动方式五.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/122-网易注册界面.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/123-定位流-相对定位.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/124-定位流-绝对定位.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/125-绝对定位-参考点.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/92-CSS精灵图练习.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/93-边框属性1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/94-边框属性2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/95-边框属性3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/96-边框属性练习.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/97-内边距属性.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/98-外边距属性.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/99-外边距合并现象.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/124-绝对定位-参考点.html" beforeDir="false" afterPath="$PROJECT_DIR$/124-绝对定位-参考点.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +78,8 @@
       <workItem from="1586220180341" duration="20789000" />
       <workItem from="1586244191984" duration="18635000" />
       <workItem from="1586276140034" duration="1277000" />
+      <workItem from="1586361496544" duration="329000" />
+      <workItem from="1586398154120" duration="5339000" />
     </task>
     <servers />
   </component>

@@ -3,11 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <title>绝对定位-参考点</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .zzt1{
+            width: 300px;
+            height: 300px;
+            background-color: orange;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        .zzt2{
+            width: 300px;
+            height: 300px;
+            background-color: tomato;
+        }
+
+        .zzt3{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+
+        .zzt4{
+            width: 300px;
+            height: 300px;
+            background-color: blue;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .zzt5{
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+            /*position: absolute;*/
+            /*right: 0;*/
+            /*top: 0;*/
+        }
+
+        .zzt6{
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+    </style>
+
 </head>
 
-<!---->
+<!--规律:以下三点-->
+
+<!--默认情况下,所有的绝对定位的元素无论有没有祖先元素,都会以body作为参考点-->
+
+<!--如果一个绝对定位的元素有祖先元素,并且祖先元素也是定位流(相对定位/绝对定位/固定定位),那么这个绝对定位的元素就会以定位流(相对定位/绝对定位/固定定位)的那个祖先元素作为参考点-->
+<!--注意:只要是这个绝对定位元素的祖先元素都可以;定位流是指绝对定位/相对定位/固定定位;定位流中只有静态定位不行-->
+
+<!--如果一个绝对定位的元素有祖先元素,并且祖先元素也是定位流,而且祖先元素中有多个元素都是定位流,那么这个绝对定位的元素会以离他最近的那个定位流的祖先元素为参考点-->
 
 <body>
+
+<div class="zzt1"></div>
+
+<div class="zzt2">
+    <div class="zzt3"></div>
+</div>
+
+<div class="zzt4">
+    <div class="zzt5">
+        <div class="zzt6"></div>
+    </div>
+</div>
 
 </body>
 </html>
