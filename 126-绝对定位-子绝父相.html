@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绝对定位-子绝父相</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        ul{
+            list-style: none;
+            width: 800px;
+            height: 50px;
+            /*margin: 0 auto;*/
+            /*margin-top: 100px;*/
+            margin: 100px auto;
+        }
+        
+        ul li{
+            float: left;
+            width: 100px;
+            line-height: 50px;
+            text-align: center;
+            background-color: #ccc;
+        }
+
+        ul li:nth-of-type(4){
+            background-color: orange;
+            position: relative;
+        }
+
+        /*相对定位*/
+        /*弊端为:相对定位不会脱离标准流,会继续在标准流中占用一份空间,所以不利于布置界面*/
+        /*ul li img{*/
+        /*    position: relative;*/
+        /*    left: -42px;*/
+        /*    top: -18px;*/
+        /*}*/
+
+        /*绝对定位*/
+        /*弊端为:默认情况下,绝对定位的元素会以body作为参考点,所以会随着浏览器的宽度和高度的变化而变化*/
+        /* ul li img{*/
+        /*     position: absolute;*/
+        /*     left: 780px;*/
+        /*     top: 90px;*/
+        /* }*/
+
+        /*相对定位与绝对定位结合*/
+        ul li img{
+            position: absolute;
+            left: 40px;
+            top: -10px;
+        }
+    </style>
+
+</head>
+
+<!--相对定位的弊端:相对定位不会脱离标准流,相对定位会在标准流中占用一份空间,所以相对定位虽然可以用来调整/定位某一个元素,但是定位之后原先在标准流中的位置还是被占用着,不利于布置界面,所以在企业开发中很少单独使用相对定位来调整某一个元素-->
+
+<!--绝对定位的弊端:虽然绝对定位不会在标准流中占用一份空间,但是在默认情况下,绝对定位的元素会以body作为参考点,所以会随着浏览器的宽度和高度的变化而变化,因此在企业开发中很少单独使用相对定位来调整某一个元素-->
+
+<!--相对定位与绝对定位结合:元素不会占用标准流中的位置,同时也不会随着浏览器宽度和高度的变化而变化-->
+
+<!--子绝父相:子元素用绝对定位,父元素用相对定位-->
+
+<body>
+
+<ul>
+    <li>服装城</li>
+
+    <li>美妆馆</li>
+
+    <li>京东超市</li>
+
+    <li>
+        全球购
+        <img src="./images/Hot.png">
+    </li>
+
+    <li>闪购</li>
+
+    <li>团购</li>
+
+    <li>拍卖</li>
+
+    <li>金融</li>
+</ul>
+
+</body>
+</html>
