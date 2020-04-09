@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位练习2</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            width: 520px;
+            height: 280px;
+            border: 2px solid gold;
+            /*margin: 0 auto;*/
+            /*margin-top: 100px;*/
+            margin: 100px auto;
+            position: relative;
+        }
+
+        /*因为行高可以撑起盒子高,所以height属性可以不用*/
+        span{
+            width: 40px;
+            /*height: 80px;*/
+            font-size: 50px;
+            color: white;
+            display: inline-block;
+            text-align: center;
+            line-height: 80px;
+            background-color: rgba(0,0,0,0.3);
+        }
+
+        div .zzt1{
+            left: 0;
+            top: 100px;
+            position: absolute;
+        }
+
+        div .zzt2{
+            right: 0;
+            top: 100px;
+            position: absolute;
+        }
+
+        ol{
+            width: 200px;
+            height: 40px;
+            list-style: none;
+            background-color: rgba(255,255,255,0.7);
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+
+        /*因为行高可以撑起盒子高,所以height属性可以不用*/
+        ol li{
+            width: 40px;
+            /*height: 40px;*/
+            float: left;
+            text-align: center;
+            line-height: 40px;
+            border: 1px solid gold;
+            box-sizing: border-box;
+        }
+    </style>
+
+</head>
+<body>
+
+<div>
+    <img src="./images/Exercise3.jpg">
+
+    <span class="zzt1">&lt;</span>
+
+    <span class="zzt2">&gt;</span>
+
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ol>
+</div>
+
+</body>
+</html>
