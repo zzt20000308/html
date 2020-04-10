@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>a标签的伪类选择器</title>
+
+    <style>
+        /*简写格式为a{color: gold;} = a:link{color: gold;} + a:visited{color: gold;}*/
+
+        a:link{
+            color: tomato;
+        }
+
+        a:visited{
+            color: orange;
+        }
+
+        a:hover{
+            color: red;
+        }
+
+        a:active{
+            color: deeppink;
+        }
+    </style>
+
+</head>
+
+<!--a标签存在一定的状态:默认的状态(从未被访问过);被访问过的状态;鼠标长按的状态;鼠标悬停在a标签上的状态-->
+<!--默认情况下(从未被访问过),a标签是蓝色的;一旦被访问过后,a标签就会变成紫色的;长按鼠标不放时,a标签就会变成红色-->
+<!--a标签的伪类选择器:专门用来修改a标签不同状态下的样式的-->
+<!--格式:"a:link"修改从未被访问过状态下的样式;"a:visited"修改被访问过的状态下的样式;"a:active"修改鼠标长按状态下的样式;"a:hover"修改鼠标悬停在a标签上的状态下的样式-->
+<!--注意:a标签的伪类选择器可以单独出现,也可以一起出现;a标签的伪类选择器如果一起出现,那么有严格的顺序要求,编写的顺序必须严格遵守"l v h a";如果默认状态的样式和被访问过的状态的样式一样,那么可以缩写-->
+
+<body>
+
+<a href="http://www.baidu.com">百度</a>
+
+<a href="http://www.taobao.com">淘宝</a>
+
+<a href="http://www.jd.com">京东</a>
+
+</body>
+</html>

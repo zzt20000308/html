@@ -15,20 +15,21 @@
             height: 100px;
         }
 
-        /*.zzt1{*/
-        /*    background-color: orange;*/
-        /*}*/
+        .zzt1{
+            background-color: orange;
+        }
 
-        /*.zzt2{*/
-        /*    background-color: pink;*/
-        /*    position: absolute;*/
-        /*    left: 50px;*/
-        /*    top: 50px;*/
-        /*}*/
+        .zzt2{
+            background-color: pink;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+        }
 
-        /*.zzt3{*/
-        /*    background-color: skyblue;*/
-        /*}*/
+        .zzt3{
+            background-color: skyblue;
+        }
+
 
         .zzt4{
             background-color: orange;
@@ -50,15 +51,134 @@
             left: 100px;
             top: 100px;
         }
-    </style>
 
+
+        .zzt7{
+            width: 100%;
+            height: 53px;
+            position: fixed;
+            top: 0;
+            background: url("./images/Sina2.png") no-repeat center top;
+            z-index: 1;
+        }
+
+        .zzt8{
+            width: 200px;
+            height: 1500px;
+            background-color: tomato;
+            position: relative;
+            left: 300px;
+            top: 100px;
+            border: 5px solid #000;
+        }
+
+
+        /*.father1{*/
+        /*    width: 200px;*/
+        /*    height: 200px;*/
+        /*    background-color: orange;*/
+        /*}*/
+
+        /*.father2{*/
+        /*    width: 200px;*/
+        /*    height: 200px;*/
+        /*    background-color: tomato;*/
+        /*}*/
+
+        /*.son1{*/
+        /*    width: 100px;*/
+        /*    height: 100px;*/
+        /*    background-color: skyblue;*/
+        /*    position: absolute;*/
+        /*    left: 200px;*/
+        /*    top: 200px;*/
+        /*}*/
+
+        /*.son2{*/
+        /*    width: 100px;*/
+        /*    height: 100px;*/
+        /*    background-color: pink;*/
+        /*    position: absolute;*/
+        /*    left: 250px;*/
+        /*    top: 250px;*/
+        /*}*/
+
+        /*.father1{*/
+        /*    width: 200px;*/
+        /*    height: 200px;*/
+        /*    background-color: orange;*/
+        /*}*/
+
+        /*.father2{*/
+        /*    width: 200px;*/
+        /*    height: 200px;*/
+        /*    background-color: tomato;*/
+        /*}*/
+
+        /*.son1{*/
+        /*    width: 100px;*/
+        /*    height: 100px;*/
+        /*    background-color: skyblue;*/
+        /*    position: absolute;*/
+        /*    left: 200px;*/
+        /*    top: 200px;*/
+        /*    z-index: 2;*/
+        /*}*/
+
+        /*.son2{*/
+        /*    width: 100px;*/
+        /*    height: 100px;*/
+        /*    background-color: pink;*/
+        /*    position: absolute;*/
+        /*    left: 250px;*/
+        /*    top: 250px;*/
+        /*    z-index: 1;*/
+        /*}*/
+
+        .father1{
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+            position: relative;
+            z-index: 1;
+        }
+
+        .father2{
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            position: relative;
+            z-index: 2;
+        }
+
+        .son1{
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+            position: absolute;
+            left: 200px;
+            top: 200px;
+            z-index: 2;
+        }
+
+        .son2{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+            left: 250px;
+            top: 50px;
+            z-index: 1;
+        }
+    </style>
 
 </head>
 
 <!--IE6不支持固定定位-->
 <!--默认情况下,一个元素就是静态定位-->
 <!--z-index属性:默认情况下所有的元素都有一个默认的z-index属性,取值是0;z-index属性是专门用于控制定位流元素的覆盖关系的-->
-<!--默认情况下,定位流的元素会盖住标准流的元素;默认情况下,定位流的元素后面编写的会盖住前面编写的;-->
+<!--默认情况下,定位流的元素会盖住标准流的元素;默认情况下,定位流的元素后面编写的会盖住前面编写的;如果定位流的元素设置了z-index属性,那么谁的z-index属性的取值比较大,谁就会显示在上面-->
+<!--从父现象:如果两个元素的父元素都没有设置z-index属性,那么谁的z-index属性比较大谁就显示在上面;如果两个元素的父元素设置了z-index属性,那么子元素的z-index属性就会失效,也就是说谁的父元素的z-index属性比较大谁就会显示在上面-->
 
 <body>
 
@@ -68,11 +188,26 @@
 
 <!--<div class="zzt3"></div>-->
 
-<div class="zzt4"></div>
 
-<div class="zzt5"></div>
+<!--<div class="zzt4"></div>-->
 
-<div class="zzt6"></div>
+<!--<div class="zzt5"></div>-->
+
+<!--<div class="zzt6"></div>-->
+
+
+<!--<div class="zzt7"></div>-->
+
+<!--<div class="zzt8"></div>-->
+
+
+<div class="father1">
+    <div class="son1"></div>
+</div>
+
+<div class="father2">
+    <div class="son2"></div>
+</div>
 
 </body>
 </html>
