@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位流-z-index属性</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            width: 100px;
+            height: 100px;
+        }
+
+        /*.zzt1{*/
+        /*    background-color: orange;*/
+        /*}*/
+
+        /*.zzt2{*/
+        /*    background-color: pink;*/
+        /*    position: absolute;*/
+        /*    left: 50px;*/
+        /*    top: 50px;*/
+        /*}*/
+
+        /*.zzt3{*/
+        /*    background-color: skyblue;*/
+        /*}*/
+
+        .zzt4{
+            background-color: orange;
+            position: relative;
+            left: 0;
+            top: 0;
+        }
+
+        .zzt5{
+            background-color: pink;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+        }
+
+        .zzt6{
+            background-color: skyblue;
+            position: fixed;
+            left: 100px;
+            top: 100px;
+        }
+    </style>
+
+
+</head>
+
+<!--IE6不支持固定定位-->
+<!--默认情况下,一个元素就是静态定位-->
+<!--z-index属性:默认情况下所有的元素都有一个默认的z-index属性,取值是0;z-index属性是专门用于控制定位流元素的覆盖关系的-->
+<!--默认情况下,定位流的元素会盖住标准流的元素;默认情况下,定位流的元素后面编写的会盖住前面编写的;-->
+
+<body>
+
+<!--<div class="zzt1"></div>-->
+
+<!--<div class="zzt2"></div>-->
+
+<!--<div class="zzt3"></div>-->
+
+<div class="zzt4"></div>
+
+<div class="zzt5"></div>
+
+<div class="zzt6"></div>
+
+</body>
+</html>
