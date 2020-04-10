@@ -3,8 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>固定定位-应用场景</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .zzt1{
+            width: 100%;
+            height: 53px;
+            position: fixed;
+            top: 0;
+            background: url("./images/Sina2.png") no-repeat center top;
+        }
+
+        .zzt2{
+            width: 100%;
+            height: 11178px;
+            background: url("./images/Sina1.png") no-repeat center top;
+        }
+
+        div img:first-child{
+            position: fixed;
+            left: 0;
+            top: 200px;
+        }
+
+        div img:last-child{
+            position: fixed;
+            right: 0;
+            top: 200px;
+        }
+
+        /*行高撑起盒子高,height可以不要*/
+        a{
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            width: 100px;
+            /*height: 100px;*/
+            background-color: rgba(0,0,0,0.3);
+            text-align: center;
+            line-height: 100px;
+            text-decoration: none;
+        }
+    </style>
+
 </head>
 <body>
+
+<div class="zzt1"></div>
+
+<div class="zzt2">
+    <img src="./images/Sina3.png">
+    <img src="./images/Sina4.png">
+</div>
+
+<a href="#">返回顶部</a>
 
 </body>
 </html>
