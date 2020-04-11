@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过渡模块-手风琴效果</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        ul{
+            width: 960px;
+            height: 300px;
+            margin: 100px auto;
+            border: 1px solid #000;
+            overflow: hidden;
+        }
+
+        ul li{
+            list-style: none;
+            width: 160px;
+            height: 300px;
+            float: left;
+
+            /*transition-property: width;*/
+            /*transition-duration: 0.5s;*/
+
+            transition: width 0.5s;
+        }
+
+        ul:hover li{
+            width: 100px;
+        }
+
+        ul li:hover{
+            width: 460px;
+        }
+    </style>
+
+</head>
+
+<!--ul:hover li与ul li:hover比较:"ul li:hover"更具体,优先级更高-->
+
+<body>
+
+<ul>
+    <li>
+        <img src="./images/Exercise4.jpg">
+    </li>
+
+    <li>
+        <img src="./images/Exercise5.jpg">
+    </li>
+
+    <li>
+        <img src="./images/Exercise6.jpg">
+    </li>
+
+    <li>
+        <img src="./images/Exercise7.jpg">
+    </li>
+
+    <li>
+        <img src="./images/Exercise8.jpg">
+    </li>
+
+    <li>
+        <img src="./images/Exercise9.jpg">
+    </li>
+</ul>
+
+</body>
+</html>
