@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>a标签的伪类选择器练习</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        ul{
+            width: 960px;
+            height: 40px;
+            margin: 100px auto;
+        }
+
+        ul li{
+            list-style: none;
+            width: 120px;
+            height: 40px;
+            float: left;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        ul li a{
+            width: 120px;
+            height: 40px;
+            display: inline-block;
+        }
+
+        ul li a:link{
+            color: white;
+            text-decoration: none;
+            background-color: pink;
+        }
+
+        ul li a:hover{
+            color: tomato;
+            background-color: skyblue;
+        }
+
+        ul li a:active{
+            color: yellow;
+        }
+    </style>
+
+</head>
+
+<!--在企业开发中,编写a标签的伪类选择器最好写在标签选择器的后面-->
+<!--在企业开发中,和a标签盒子相关的属性都写在标签选择器中(显示模式/宽度/高度/padding/margin)-->
+<!--在企业开发中,和a标签文字/背景相关的都写在伪类选择器中-->
+
+<body>
+
+<ul>
+    <li>
+        <a href="#">导航条</a>
+    </li>
+
+    <li>
+        <a href="#">导航条</a>
+    </li>
+
+    <li>
+        <a href="#">导航条</a>
+    </li>
+
+    <li>
+        <a href="#">导航条</a>
+    </li>
+
+    <li>
+        <a href="#">导航条</a>
+    </li>
+
+    <li>
+        <a href="#">导航条</a>
+    </li>
+
+    <li>
+        <a href="#">导航条</a>
+    </li>
+
+    <li>
+        <a href="#">导航条</a>
+    </li>
+</ul>
+
+</body>
+</html>
