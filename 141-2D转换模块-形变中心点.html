@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2D转换模块-形变中心点</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            margin: 100px auto;
+            position: relative;
+        }
+
+        /*ul li{*/
+        /*    list-style: none;*/
+        /*    width: 200px;*/
+        /*    height: 200px;*/
+        /*    position: absolute;*/
+        /*    left: 0;*/
+        /*    top: 0;*/
+        /*}*/
+
+        ul li{
+            list-style: none;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            /*transform-origin: 200px 200px;*/
+            /*transform-origin: 100% 100%;*/
+            transform-origin: right bottom;
+        }
+
+        ul li:nth-child(1){
+            background-color: orange;
+            transform: rotate(30deg);
+        }
+
+        ul li:nth-child(2){
+            background-color: pink;
+            transform: rotate(50deg);
+        }
+
+        ul li:nth-child(3){
+            background-color: skyblue;
+            transform: rotate(70deg);
+        }
+    </style>
+    
+</head>
+
+<!--默认情况下,所有的元素都是以自己的中心点作为参考点来旋转的,我们可以通过形变中心点属性来修改他的参考点-->
+<!--"transform-origin: 200px 200px;":添加transform-origin属性后可以更改参考点,第一个参数(200px)代表水平方向,第二个参数(200px)代表垂直方向;取值有三种形式,第一种为具体像素,第二种为百分比,第三种为特殊关键字-->
+
+<body>
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+</body>
+</html>
