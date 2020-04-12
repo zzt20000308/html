@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2D转换模块-旋转轴向</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        ul{
+            width: 800px;
+            height: 500px;
+            margin: 0 auto;
+            perspective: 500px;
+        }
+
+        ul li{
+            list-style: none;
+            width: 200px;
+            height: 300px;
+            /*margin: 0 auto;*/
+            /*margin-top: 50px;*/
+            margin: 200px auto;
+            border: 1px solid #000;
+        }
+
+        ul li img{
+            width: 200px;
+            height: 300px;
+        }
+
+        ul li:nth-child(1){
+            /*transform: rotate(45deg);*/
+            transform: rotateZ(45deg);
+        }
+
+        ul li:nth-child(2){
+            transform: rotateX(45deg);
+        }
+
+        ul li:nth-child(3){
+            transform: rotateY(45deg);
+        }
+    </style>
+
+</head>
+
+<!--默认情况下,所有的元素都是围绕Z轴进行旋转-->
+<!--总结:想围绕哪个轴旋转,那么只需要在rotate后面加上哪个轴即可-->
+
+<body>
+
+<ul>
+    <li>
+        <img src="./images/Luffy.jpg">
+    </li>
+
+    <li>
+        <img src="./images/Solon.jpg">
+    </li>
+
+    <li>
+        <img src="./images/Sanji.jpg">
+    </li>
+</ul>
+
+</body>
+</html>
