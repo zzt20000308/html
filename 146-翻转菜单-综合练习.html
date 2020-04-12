@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>翻转菜单-综合练习</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.zzt1{
+            width: 400px;
+            height: 40px;
+            /*margin: 0 auto;*/
+            /*margin-top: 100px;*/
+            margin: 100px auto 0 auto;
+            background-color: tomato;
+        }
+
+        ul.zzt1>li{
+            list-style: none;
+            float: left;
+            width: 120px;
+            height: 40px;
+            margin-left: 10px;
+            text-align: center;
+            line-height: 40px;
+            background-color: orange;
+            position: relative;
+        }
+
+        ul.zzt2{
+            width: 120px;
+            position: absolute;
+            left: 0;
+            top: 40px;
+        }
+
+        ul.zzt2 li{
+            list-style: none;
+            background-color: pink;
+            transform: rotateY(180deg);
+            transition: all 1s;
+            opacity: 0;
+        }
+
+        ul.zzt1>li:hover .zzt2 li{
+            transform: none;
+            opacity: 1;
+        }
+
+        ul.zzt1>li:hover .zzt2 li:nth-child(1){
+            transition-delay: 0ms;
+        }
+
+        ul.zzt1>li:hover .zzt2 li:nth-child(2){
+            transition-delay: 200ms;
+        }
+
+        ul.zzt1>li:hover .zzt2 li:nth-child(3){
+            transition-delay: 400ms;
+        }
+
+        ul.zzt1>li:hover .zzt2 li:nth-child(4){
+            transition-delay: 600ms;
+        }
+
+        ul.zzt1>li:hover .zzt2 li:nth-child(5){
+            transition-delay: 800ms;
+        }
+
+        ul.zzt1>li .zzt2 li:nth-child(5){
+            transition-delay: 0ms;
+        }
+
+        ul.zzt1>li .zzt2 li:nth-child(4){
+            transition-delay: 200ms;
+        }
+
+        ul.zzt1>li .zzt2 li:nth-child(3){
+            transition-delay: 400ms;
+        }
+
+        ul.zzt1>li .zzt2 li:nth-child(2){
+            transition-delay: 600ms;
+        }
+
+        ul.zzt1>li .zzt2 li:nth-child(1){
+            transition-delay: 800ms;
+        }
+
+        div{
+            width: 400px;
+            height: 300px;
+            background-color: skyblue;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+
+<!--"margin: 0 auto;margin-top: 100px;"与"margin: 100px auto;"的区别:"margin: 0 auto;margin-top: 100px;"的含义为"margin: 100px auto 0 auto;",即距离上面100个像素,距离下面0个像素,然后左右居中;"margin: 100px auto;"的含义为"margin: 100px auto 100px auto;",即距离上面100个像素,距离下面100个像素,然后左右居中-->
+<!--"margin: 0 auto;margin-top: 100px;"与"margin: 100px auto 0;"/"margin: 100px auto 0 auto;"含义一样-->
+<!--定位的元素一定会盖住不定位的元素-->
+
+<body>
+
+<ul class="zzt1">
+    <li>
+        一级菜单
+        <ul class="zzt2">
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+        </ul>
+    </li>
+
+    <li>
+        一级菜单
+        <ul class="zzt2">
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+        </ul>
+    </li>
+
+    <li>
+        一级菜单
+        <ul class="zzt2">
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+            <li>二级菜单</li>
+        </ul>
+    </li>
+</ul>
+
+<div>海贼王--路飞==>海贼王--索隆==>海贼王--山治==>海贼王--娜美==>海贼王--罗宾==>海贼王--乔巴==>海贼王--乌索普=>海贼王--弗兰奇=>海贼王--布鲁克</div>
+
+</body>
+</html>

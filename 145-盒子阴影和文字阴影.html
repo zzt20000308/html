@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子阴影和文字阴影</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div.zzt1{
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+            margin: 100px auto;
+            text-align: center;
+            line-height: 200px;
+
+            /*内阴影*/
+            /*box-shadow: 10px 10px 5px 5px #ccc inset;*/
+
+            /*默认情况下为外阴影,可以不用写*/
+            box-shadow: 10px 10px 5px 5px #ccc;
+
+            /*box-shadow: 10px 10px 5px;*/
+            /*color: #ccc;*/
+        }
+
+        div.zzt2{
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            background-color: skyblue;
+            text-align: center;
+            line-height: 200px;
+            font-size: 50px;
+
+            text-shadow: 10px 10px 5px tomato;
+
+            /*text-shadow: 10px 10px 5px;*/
+            /*color: tomato;*/
+        }
+    </style>
+
+</head>
+
+<!--给盒子添加阴影:"box-shadow: 水平偏移 垂直偏移 模糊度 阴影扩展 阴影颜色 内外阴影"-->
+<!--注意:盒子的阴影分为内外阴影,默认情况下就是外阴影;快速添加阴影只需要编写三个参数即可(水平偏移 垂直偏移 模糊度),默认情况下阴影的颜色和盒子内容的颜色一致-->
+
+<!--给文字添加阴影:"box-shadow: 水平偏移 垂直偏移 模糊度 阴影颜色"-->
+<!--注意:快速添加阴影只需要编写三个参数即可(水平偏移 垂直偏移 模糊度),默认情况下阴影的颜色和盒子内容的颜色一致-->
+
+<body>
+
+<div class="zzt1">盒子</div>
+
+<div class="zzt2">盒子</div>
+
+</body>
+</html>
