@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画模块-其他属性2</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div.zzt1{
+            width: 100px;
+            height: 50px;
+            background-color: orange;
+            position: absolute;
+            left: 0;
+            top: 0;
+            animation-name: zi;
+            animation-duration: 3s;
+        }
+
+        @keyframes zi {
+            0%{
+                left: 0;
+                top: 0;
+            }
+            25%{
+                left: 300px;
+                top: 0;
+            }
+            50%{
+                left: 300px;
+                top: 300px;
+            }
+            75%{
+                left: 0;
+                top: 300px;
+            }
+            100%{
+                left: 0;
+                top: 0;
+            }
+        }
+
+        div.zzt2{
+            width: 200px;
+            height: 200px;
+            background-color: skyblue;
+            margin: 100px auto;
+            animation-name: zzt;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-fill-mode: backwards;
+        }
+
+        @keyframes zzt {
+            0%{
+                transform: rotate(10deg);
+            }
+            50%{
+                transform: rotate(50deg);
+            }
+            100%{
+                transform: rotate(70deg);
+            }
+        }
+    </style>
+
+</head>
+
+<!--通过观察发现,动画是有一定的状态的:等待状态;执行状态;结束状态-->
+<!--animation-fill-mode作用:指定动画等待状态和结束状态的样式;取值:none--不做任何改变,forwards--让元素结束状态保持动画最后一帧的样式,backwards--让元素等待状态的时候显示动画第一帧的样式,both--让元素等待状态的时候显示动画第一帧的样式和让元素结束状态保持动画最后一帧的样式-->
+
+<body>
+
+<div class="zzt1"></div>
+
+<div class="zzt2"></div>
+
+</body>
+</html>
