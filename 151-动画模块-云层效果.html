@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画模块-云层效果</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        ul{
+            height: 400px;
+            background-color: skyblue;
+            margin-top: 200px;
+            animation: zzt 5s linear 0s infinite alternate;
+            position: relative;
+            overflow: hidden;
+        }
+
+        @keyframes zzt {
+            from{
+                background-color: skyblue;
+            }
+            to{
+                background-color: black;
+            }
+        }
+
+        ul li{
+            list-style: none;
+            width: 400%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        ul li:nth-child(1){
+            background-image: url("./images/Exercise11.png");
+            animation: one 30s linear 0s infinite alternate;
+         }
+
+        @keyframes one {
+            from{
+                margin-left: 0;
+            }
+            to{
+                margin-left: -100%;
+            }
+        }
+
+        ul li:nth-child(2){
+            background-image: url("./images/Exercise12.png");
+            animation: two 30s linear 0s infinite alternate;
+        }
+
+        @keyframes two {
+            from{
+                margin-left: 0;
+            }
+            to{
+                margin-left: -200%;
+            }
+        }
+
+        ul li:nth-child(3){
+            background-image: url("./images/Exercise13.png");
+            animation: three 30s linear 0s infinite alternate;
+        }
+
+        @keyframes three {
+            from{
+                margin-left: 0;
+            }
+            to{
+                margin-left: -300%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+</body>
+</html>

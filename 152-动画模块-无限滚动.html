@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画模块-无限滚动</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            width: 1340px;
+            height: 300px;
+            border: 1px solid #000;
+            margin: 100px auto;
+            overflow: hidden;
+        }
+
+        ul{
+            width: 4020px;
+            height: 300px;
+            background-color: black;
+            animation: zzt 10s linear 0s infinite normal;
+        }
+
+        @keyframes zzt {
+            from{
+                margin-left: 0;
+            }
+            to{
+                margin-left: -2680px;
+            }
+        }
+
+        ul:hover{
+            animation-play-state: paused;
+        }
+
+        ul li{
+            list-style: none;
+            width: 670px;
+            height: 300px;
+            float: left;
+        }
+
+        ul:hover li{
+            opacity: 0.5;
+        }
+
+        ul li:hover{
+            opacity: 1;
+        }
+    </style>
+
+</head>
+
+<!--ul:hover li{opacity: 0.5;}与ul li:hover{opacity: 1;}两者中虽然ul和li都有hover,但是li更具体,所以优先级比较高,而不是因为li在后面所以优先级高-->
+
+<body>
+
+<div>
+    <ul>
+        <li>
+            <img src="./images/Exercise4.jpg">
+        </li>
+
+        <li>
+            <img src="./images/Exercise5.jpg">
+        </li>
+
+        <li>
+            <img src="./images/Exercise6.jpg">
+        </li>
+
+        <li>
+            <img src="./images/Exercise7.jpg">
+        </li>
+
+        <li>
+            <img src="./images/Exercise4.jpg">
+        </li>
+
+        <li>
+            <img src="./images/Exercise5.jpg">
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>

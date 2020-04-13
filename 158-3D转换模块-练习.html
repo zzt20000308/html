@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D转换模块-练习</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            perspective: 500px;
+        }
+
+        ul{
+            width: 300px;
+            height: 300px;
+            margin: 200px auto;
+            position: relative;
+            transform-style: preserve-3d;
+            animation: zzt 5s linear 0s infinite normal;
+        }
+
+        @keyframes zzt {
+            from{
+                transform: rotateX(0deg);
+            }
+            to{
+                transform: rotateX(360deg);
+            }
+        }
+
+        ul li{
+            list-style: none;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        ul li:nth-child(1){
+            background-color: deeppink;
+            transform: rotateX(90deg) translateZ(150px) scale(1.5,1);
+        }
+
+        ul li:nth-child(2){
+            background-color: skyblue;
+            transform: rotateX(180deg) translateZ(150px) scale(1.5,1);
+        }
+
+        ul li:nth-child(3){
+            background-color: pink;
+            transform: rotateX(270deg) translateZ(150px) scale(1.5,1);
+        }
+
+        ul li:nth-child(4){
+            background-color: tomato;
+            transform: rotateX(360deg) translateZ(150px) scale(1.5,1);
+        }
+
+        /*原先盒子的宽度是300px，所以只需移动150px就好,但是现在因为盒子进行了拉伸,拉伸了1.5倍,所以移动的长度应该变成225px(150*1.5=225)*/
+        ul li:nth-child(5){
+            background-color: gold;
+            transform: translateX(-225px) rotateY(90deg);
+        }
+
+        ul li:nth-child(6){
+            background-color: orange;
+            transform: translateX(225px) rotateY(90deg);
+        }
+
+        /*父元素被拉伸了,子元素也会被拉伸,所以只要设置子元素img的宽高和父元素li的宽高一样就可以了*/
+        ul li img{
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+
+</head>
+
+<!--要看某元素近大远小的效果,给该元素的父元素设置perspective属性即可-->
+<!--注意:只要父元素被拉伸了,子元素也会被拉伸-->
+
+<body>
+
+<ul>
+    <li>
+        <img src="./images/Exercise4.jpg">
+    </li>
+
+    <li>
+        <img src="./images/Exercise5.jpg">
+    </li>
+
+    <li>
+        <img src="./images/Exercise6.jpg">
+    </li>
+
+    <li>
+        <img src="./images/Exercise7.jpg">
+    </li>
+
+    <li></li>
+
+    <li></li>
+</ul>
+
+</body>
+</html>
