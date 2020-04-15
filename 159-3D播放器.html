@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D播放器</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background: url("./OnePiece/0.jpg") no-repeat;
+            background-size: cover;
+            overflow: hidden;
+        }
+
+
+        /*因为ul里面有和后面同名的属性(transform:rotateX();),所以后面的会覆盖掉ul里面同名的属性,所以即使该属性里面的值再大也没有作用,因为会被后面的同名属性所覆盖*/
+        ul{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            top: 200px;
+            left: 25%;
+            margin-left: -100px;
+            transform-style: preserve-3d;
+            /*transform: rotateX(-10deg);*/
+            animation: zzt1 18s linear 0s infinite normal;
+        }
+
+        /*编写动画时,固定不变的值写在前面,需要变化的值写在后面,否则呈现出来的画面将会不同;下面代码中rotateX()为固定值,写在前面;rotateY()为变化值,写在后面*/
+        @keyframes zzt1 {
+            from{
+                transform: rotateX(-10deg) rotateY(0deg);
+            }
+            to{
+                transform: rotateX(-10deg) rotateY(360deg);
+            }
+        }
+
+        ul:hover{
+            animation-play-state: paused;
+        }
+
+        ul li{
+            list-style: none;
+            width: 200px;
+            height: 200px;
+            font-size: 60px;
+            text-align: center;
+            line-height: 200px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: black;
+        }
+
+        ul li:nth-child(1){
+            transform: rotateY(40deg) translateZ(300px);
+         }
+
+        ul li:nth-child(2){
+            transform: rotateY(80deg) translateZ(300px);
+        }
+
+        ul li:nth-child(3){
+            transform: rotateY(120deg) translateZ(300px);
+        }
+
+        ul li:nth-child(4){
+            transform: rotateY(160deg) translateZ(300px);
+        }
+
+        ul li:nth-child(5){
+            transform: rotateY(200deg) translateZ(300px);
+        }
+
+        ul li:nth-child(6){
+            transform: rotateY(240deg) translateZ(300px);
+        }
+
+        ul li:nth-child(7){
+            transform: rotateY(280deg) translateZ(300px);
+        }
+
+        ul li:nth-child(8){
+            transform: rotateY(320deg) translateZ(300px);
+        }
+
+        ul li:nth-child(9){
+            transform: rotateY(360deg) translateZ(300px);
+        }
+
+        ul li img{
+            width: 200px;
+            height: 200px;
+            border: 5px solid skyblue;
+            box-sizing: border-box;
+        }
+
+        ul:hover li img{
+            opacity: 0.5;
+        }
+
+        ul li:hover img{
+            opacity: 1;
+            transform: scale(1.2);
+        }
+
+        .xin{
+            width: 173px;
+            height: 157px;
+            position: absolute;
+            left: 100px;
+            bottom: 100px;
+            animation: zzt2 15s linear 0s infinite normal;
+        }
+
+        @keyframes zzt2 {
+            0%{
+                left: 100px;
+                bottom: 100px;
+                opacity: 1;
+            }
+            25%{
+                left: 700px;
+                bottom: 800px;
+                opacity: 0;
+            }
+            50%{
+                left: 1500px;
+                bottom: 400px;
+                opacity: 1;
+            }
+            75%{
+                left: 750px;
+                bottom: 0;
+                opacity: 0;
+            }
+            100%{
+                left: 100px;
+                bottom: 100px;
+                overflow: 1;
+            }
+        }
+    </style>
+
+</head>
+
+<!--注意:动画中如果有和默认样式中同名的属性,会覆盖默认样式中同名的属性;在编写动画的时候,固定不变的值写在前面,需要变化的值写在后面-->
+
+<body>
+
+<ul>
+    <li>
+        <img src="./OnePiece/1.jpg">
+    </li>
+
+    <li>
+        <img src="./OnePiece/2.jpg">
+    </li>
+
+    <li>
+        <img src="./OnePiece/3.jpg">
+    </li>
+
+    <li>
+        <img src="./OnePiece/4.jpg">
+    </li>
+
+    <li>
+        <img src="./OnePiece/5.jpg">
+    </li>
+
+    <li>
+        <img src="./OnePiece/6.jpg">
+    </li>
+
+    <li>
+        <img src="./OnePiece/7.jpg">
+    </li>
+
+    <li>
+        <img src="./OnePiece/8.jpg">
+    </li>
+
+    <li>
+        <img src="./OnePiece/9.jpg">
+    </li>
+</ul>
+
+<img src="./OnePiece/10.png" class="xin">
+
+<audio src=""></audio>
+
+</body>
+</html>
