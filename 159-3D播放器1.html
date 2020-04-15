@@ -15,6 +15,8 @@
             background-size: cover;
         }
 
+
+        /*因为ul里面有和后面同名的属性(transform:rotateX();),所以后面的会覆盖掉ul里面同名的属性,所以即使该属性里面的值再大也没有作用,因为会被后面的同名属性所覆盖*/
         ul{
             width: 200px;
             height: 200px;
@@ -27,6 +29,7 @@
             animation: zzt 18s linear 0s infinite normal;
         }
 
+        /*编写动画时,固定不变的值写在前面,需要变化的值写在后面,否则呈现出来的画面将会不同;下面代码中rotateX()为固定值,写在前面;rotateY()为变化值,写在后面*/
         @keyframes zzt {
             from{
                 transform: rotateX(-10deg) rotateY(0deg);
@@ -103,7 +106,7 @@
 
 </head>
 
-<!--注意:动画中如果有和默认样式中同名的属性,会覆盖默认样式中同名的属性;在编写动画的时候-->
+<!--注意:动画中如果有和默认样式中同名的属性,会覆盖默认样式中同名的属性;在编写动画的时候,固定不变的值写在前面,需要变化的值写在后面-->
 
 <body>
 
