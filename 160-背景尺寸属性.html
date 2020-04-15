@@ -24,11 +24,47 @@
             margin: 30px 30px;
             border: 1px solid #000;
             text-align: center;
-            line-height: 200px;
+            line-height: 420px;
         }
 
         ul li:nth-child(1){
+            background: url("./images/Luffy1.jpg") no-repeat;
+        }
 
+        /*第一个参数:宽度;第二个参数:高度*/
+        ul li:nth-child(2){
+            background: url("./images/Luffy1.jpg") no-repeat;
+            background-size: 150px 150px;
+        }
+
+        /*第一个参数:宽度;第二个参数:高度*/
+        ul li:nth-child(3){
+            background: url("./images/Luffy1.jpg") no-repeat;
+            background-size: 85% 85%;
+        }
+
+        /*第一个参数:宽度;第二个参数:高度;想让谁等比拉伸就把谁设置为auto*/
+        ul li:nth-child(4){
+            background: url("./images/Luffy1.jpg") no-repeat;
+            background-size: auto 180px;
+        }
+
+        /*第一个参数:宽度;第二个参数:高度;想让谁等比拉伸就把谁设置为auto*/
+        ul li:nth-child(5){
+            background: url("./images/Luffy1.jpg") no-repeat;
+            background-size: 180px auto;
+        }
+
+        /*cover含义:告诉系统图片需要等比拉伸;告诉系统图片需要拉伸到宽度和高度都填满元素*/
+        ul li:nth-child(6){
+            background: url("./images/OnePiece1.jpg") no-repeat;
+            background-size: cover;
+        }
+
+        /*contain含义:告诉系统图片需要等比拉伸;告诉系统图片需要拉伸到宽度或高度填满元素*/
+        ul li:nth-child(7){
+            background: url("./images/OnePiece1.jpg") no-repeat;
+            background-size: contain;
         }
     </style>
 
