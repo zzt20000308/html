@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多重背景图片</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            width: 500px;
+            height: 500px;
+            border: 1px solid #000;
+            margin: 0 auto;
+
+            /*background: url("./images/OnePiece2.jpg") no-repeat left top, url("./images/OnePiece3 .jpg") no-repeat right top, url("./images/OnePiece4.jpg") no-repeat left bottom, url("./images/OnePiece5.jpg") no-repeat right bottom, url("./images/OnePiece6.jpg") no-repeat center center;*/
+
+            background-image: url("./images/OnePiece2.jpg"), url("./images/OnePiece3 .jpg"), url("./images/OnePiece4.jpg"), url("./images/OnePiece5.jpg"), url("./images/OnePiece6.jpg");
+            background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+            background-position: left top, right top, left bottom, right bottom, center center;
+        }
+    </style>
+
+</head>
+
+<!--多重背景图片:多张背景图片之间用逗号隔开即可-->
+<!--注意:先添加的背景图片会盖住后添加的背景图片;建议在编写多重背景时拆开编写-->
+
+<body>
+
+<div></div>
+
+</body>
+</html>
