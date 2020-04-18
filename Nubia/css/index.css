@@ -469,6 +469,90 @@
 .footer{
     height: 396px;
     width: 100%;
-    background-color: tomato;
-    padding-top: 60px;
+    /*background-color: tomato;*/
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.footer .footer_in{
+    width: 1200px;
+    height: 356px;
+    /*background-color: skyblue;*/
+    /*margin: 0 auto;*/
+    /*margin-top: 40px;*/
+    margin: 40px auto 0 auto;
+    border-top: 1px solid #ccc;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+
+.footer .footer_top{
+    margin-top: 20px;
+}
+
+.footer .footer_middle{
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer .footer_middle>dl{
+    float: left;
+    width: 200px;
+}
+
+.footer .footer_middle>dl>dt{
+    font-size: 14px;
+    color: #000;
+    line-height: 30px;
+}
+
+.footer .footer_middle>dl>dd{
+    line-height: 20px;
+}
+
+.footer .footer_bottom{
+    margin-top: 20px;
+}
+
+.footer .footer_copyright{
+    float: left;
+}
+
+.footer .footer_copyright>li{
+    float: left;
+}
+
+.footer .footer_copyright>li>a{
+    font-size: 10px;
+    padding: 0 10px;
+    color: #999;
+}
+
+.footer .footer_copyright>li:nth-child(1) a{
+    padding-left:0;
+}
+
+.footer .footer_copyright>li:hover a{
+    color: #000;
+}
+
+.footer .footer_social{
+    float: right;
+    font-size: 20px;
+}
+
+.footer .footer_social>li{
+    float: left;
+    width: 30px;
+    height: 30px;
+    /*企业开发中如果是左浮动, 那么就不要设置左边的margin*/
+    margin-right: 10px;
+    /*background-color: salmon;*/
+    background: url("../images/nubia-syb-all.png") no-repeat;
+}
+
+.footer .footer_info{
+    padding-top: 50px;
 }
