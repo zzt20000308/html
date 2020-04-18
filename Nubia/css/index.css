@@ -512,12 +512,18 @@
     line-height: 20px;
 }
 
+.footer .footer_middle>dl>dd>a{
+    color: #999;
+}
+
 .footer .footer_bottom{
     margin-top: 20px;
 }
 
 .footer .footer_copyright{
     float: left;
+    padding-top: 8px;
+    box-sizing: border-box;
 }
 
 .footer .footer_copyright>li{
@@ -543,11 +549,11 @@
     font-size: 20px;
 }
 
+    /*企业开发中如果是左浮动, 那么就不要设置左边的margin*/
 .footer .footer_social>li{
     float: left;
     width: 30px;
     height: 30px;
-    /*企业开发中如果是左浮动, 那么就不要设置左边的margin*/
     margin-right: 10px;
     /*background-color: salmon;*/
     background: url("../images/nubia-syb-all.png") no-repeat;
