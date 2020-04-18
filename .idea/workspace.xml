@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="fc909cb3-75de-4de9-ad02-d83b37e6829e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/159-3D播放器.html" beforeDir="false" afterPath="$PROJECT_DIR$/159-3D播放器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnePiece/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnePiece/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnePiece/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnePiece/11.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnePiece/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnePiece/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnePiece/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnePiece/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnePiece/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnePiece/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnePiece/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnePiece/9.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +109,8 @@
       <workItem from="1586955047819" duration="7751000" />
       <workItem from="1586998137885" duration="35044000" />
       <workItem from="1587089778116" duration="3128000" />
+      <workItem from="1587123719498" duration="99000" />
+      <workItem from="1587177339951" duration="1107000" />
     </task>
     <servers />
   </component>
