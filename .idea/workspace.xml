@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc909cb3-75de-4de9-ad02-d83b37e6829e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Html-黑马程序员/5-综合案例-新闻页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Html-黑马程序员/images/case7.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +111,9 @@
       <workItem from="1587615792794" duration="13000" />
       <workItem from="1587615840125" duration="604000" />
       <workItem from="1587622056562" duration="24000" />
+      <workItem from="1587645642853" duration="140000" />
+      <workItem from="1587708429127" duration="626000" />
+      <workItem from="1587715834044" duration="1800000" />
     </task>
     <servers />
   </component>
