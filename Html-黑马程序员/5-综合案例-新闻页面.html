@@ -5,14 +5,33 @@
     <title>综合案例-新闻页面</title>
 
     <style>
-        body{
+        body {
             font: 16px "微软雅黑";
             line-height: 28px;
         }
 
-        h1{
+        h1 {
             font-weight: 400;
             text-align: center;
+        }
+
+        .gray {
+            color: #888;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        
+        .search {
+            color: #666;
+            width: 170px;
+        }
+
+        .btn {
+            font-weight: 700;
         }
     </style>
 
@@ -21,9 +40,17 @@
 
 <h1>北方高温明日达鼎盛 京津冀多地地表温度将超60℃</h1>
 
-<div>
-    2019-07-03 16:31:47 来源: 中国天气网　
-    请输入查询条件
+<div class="gray">
+    2019-07-03 16:31:47 来源:
+
+    <a href="#">
+        中国天气网
+        &nbsp;
+    </a>
+
+    <input type="text" value="请输入查询条件" class="search">
+
+    <button class="btn">搜索</button>
 </div>
 
 <hr>
