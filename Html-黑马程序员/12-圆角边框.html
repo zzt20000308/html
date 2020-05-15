@@ -26,11 +26,24 @@
             background-color: skyblue;
             border-radius: 50px;
         }
+
+        div.radius {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px 20px 40px 80px;
+            /*border-top-left-radius: 10px;*/
+            /*border-top-right-radius: 20px;*/
+            /*border-bottom-right-radius: 40px;*/
+            /*border-bottom-left-radius: 80px;*/
+            background-color: pink;
+        }
     </style>
 
 </head>
 
 <!--border-radius:设置圆角边框-->
+<!--圆形圆角边框:设置border-radius的取值为50%或宽度(高度)的一半-->
+<!--矩形圆角边框:设置border-radius的取值为高度的一半-->
 
 <body>
 
@@ -39,6 +52,8 @@
 <div class="yuanxing"></div>
 
 <div class="juxing"></div>
+
+<div class="radius"></div>
 
 </body>
 </html>
